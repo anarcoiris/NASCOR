@@ -1,0 +1,74 @@
+DELAY 2000
+GUI r
+DELAY 300
+STRING powershell -NoP -W Hidden -Command "New-Item -Path C:\temp -ItemType Directory -Force; $code = @'
+Start-Transcript -Path "$env:TEMP\install-wsl-docker.log" -Append
+
+# Lanzar instalación de WSL en segundo plano
+Start-Job -ScriptBlock {
+    wsl --install
+    Start-Sleep -Seconds 30
+    wsl --update
+}
+
+# Mientras WSL se instala, seguimos con Docker
+
+# Descargar Docker si no está
+$dockerInstaller = "$env:TEMP\DockerDesktopInstaller.exe"
+if (-not (Test-Path $dockerInstaller)) {
+    Invoke-WebRequest -Uri "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe" -OutFile $dockerInstaller
+}
+
+# Instalar Docker si no está
+$dockerPath = "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+if (-not (Test-Path $dockerPath)) {
+    Start-Process -FilePath $dockerInstaller -ArgumentList "install", "--quiet" -Wait
+}
+
+# Esperar a que termine la instalación de WSL
+Get-Job | Wait-Job
+Get-Job | Receive-Job
+Get-Job | Remove-Job
+
+# Lanzar Docker Desktop si está instalado
+if (Test-Path $dockerPath) {
+    Start-Process "$dockerPath"
+}
+
+# 1. Eliminar la tarea de instalación
+Unregister-ScheduledTask -TaskName "InstallWSLAndDocker" -Confirm:$false
+
+# 2. Crear nueva tarea que arranca Docker y el contenedor
+
+# Ruta de tu proyecto con el docker-compose.yml
+$projectPath = "C:\ruta\a\tu\proyecto"
+
+# Script que se ejecutará en el arranque
+$launchScriptPath = "$env:ProgramData\start-docker-container.ps1"
+$launchScriptContent = @"
+Start-Process -FilePath 'C:\Program Files\Docker\Docker\Docker Desktop.exe'
+Start-Sleep -Seconds 60
+cd '$projectPath'
+docker compose up -d
+"@
+Set-Content -Path $launchScriptPath -Value $launchScriptContent -Encoding UTF8
+
+# Crear tarea para ejecutar ese script en el próximo reinicio
+$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-WindowStyle Hidden -ExecutionPolicy Bypass -File `"$launchScriptPath`""
+$trigger = New-ScheduledTaskTrigger -AtStartup
+$principal = New-ScheduledTaskPrincipal -UserId "SYSTEM" -RunLevel Highest
+Register-ScheduledTask -TaskName "StartDockerAndContainer" -Action $action -Trigger $trigger -Principal $principal
+
+
+Stop-Transcript
+
+'@; Set-Content -Path C:\temp\install-wsl-docker.ps1 -Value $code"
+ENTER
+DELAY 3000
+REM Cerrar cualquier ventana del editor accidental (por si acaso)
+ALT F4
+DELAY 500
+GUI r
+DELAY 300
+STRING powershell -WindowStyle Hidden -Command "schtasks /create /tn InstallWSLAndDocker /tr 'powershell.exe -ExecutionPolicy Bypass -File C:\temp\install-wsl-docker.ps1' /sc onstart /ru SYSTEM /rl HIGHEST"
+ENTER

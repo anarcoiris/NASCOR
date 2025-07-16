@@ -1,0 +1,19 @@
+DELAY 1000
+REM Escribir números
+STRING 0123456789
+ENTER
+DELAY 500
+
+REM Escribir letras minúsculas
+STRING abcdefghijklmnopqrstuvwxyz
+ENTER
+DELAY 500
+
+REM Escribir letras mayúsculas
+STRING ABCDEFGHIJKLMNOPQRSTUVWXYZ
+ENTER
+DELAY 500
+
+REM Escribir símbolos
+STRING !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+ENTER

@@ -1,0 +1,23 @@
+DELAY 1000
+REM Abre PowerShell como administrador
+GUI r
+DELAY 300
+STRING powershell
+ENTER
+DELAY 1000
+
+REM Esperar a UAC manual o automático
+DELAY 2000
+
+
+REM Línea 4: Set'WinUILanguageOverride 'Language "en'US";
+STRING Set-WinUILanguageOverride 'Language ?en-US?
+ENTER
+
+REM Línea 5: Set-WinUserLanguageList "en-US","es-ES" -Force;
+STRING Set-WinUserLanguageList "en-US","es-ES" 'Forceç
+ENTER
+
+REM Línea 6: S
+STRING S
+ENTER

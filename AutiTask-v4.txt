@@ -1,0 +1,110 @@
+DELAY 2000
+GUI r
+DELAY 300
+STRING powershell -NoP -W Hidden -Command "New-Item -Path C:\temp -ItemType Directory -Force; $code = @'
+ENTER
+# install-wsl-docker.ps1
+Start-Transcript -Path "$env:TEMP\install-wsl-docker.log" -Append
+
+# --- Instalación WSL en segundo plano ---
+$wslJob = Start-Job -ScriptBlock {
+    wsl --install
+    # Espera un poco para que la instalación avance
+    Start-Sleep -Seconds 30
+    wsl --update
+}
+
+# --- Mientras tanto, instalar Docker Desktop ---
+
+$dockerInstaller = "$env:TEMP\DockerDesktopInstaller.exe"
+if (-not (Test-Path $dockerInstaller)) {
+    Write-Host "Descargando Docker Desktop..."
+    Invoke-WebRequest -Uri "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe" -OutFile $dockerInstaller
+}
+
+$dockerPath = "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+if (-not (Test-Path $dockerPath)) {
+    Write-Host "Instalando Docker Desktop..."
+    Start-Process -FilePath $dockerInstaller -ArgumentList "install", "--quiet" -Wait
+}
+
+# --- Esperar a que WSL termine ---
+Write-Host "Esperando a que termine la instalación de WSL..."
+Wait-Job $wslJob
+Receive-Job $wslJob
+Remove-Job $wslJob
+
+# --- Verificar estado WSL ---
+$wslDistros = wsl -l -v 2>$null
+$wslOk = $false
+if ($wslDistros -match "Ubuntu") {
+    Write-Host "WSL y Ubuntu instalados."
+    $wslOk = $true
+} else {
+    Write-Host "No se detecta Ubuntu en WSL."
+}
+
+# --- Verificar Docker ---
+$dockerOk = Test-Path $dockerPath
+if ($dockerOk) {
+    Write-Host "Docker Desktop instalado."
+} else {
+    Write-Host "Docker Desktop no está instalado correctamente."
+}
+
+# --- Eliminar tarea de instalación SOLO si todo ok ---
+if ($wslOk -and $dockerOk) {
+    Write-Host "Eliminando tarea InstallWSLAndDocker..."
+    Unregister-ScheduledTask -TaskName "InstallWSLAndDocker" -Confirm:$false
+} else {
+    Write-Host "No se elimina la tarea de instalación para reintentar."
+    Stop-Transcript
+    exit 1
+}
+
+# --- Crear script para arrancar Docker y el contenedor ---
+$projectPath = "C:\ruta\a\tu\proyecto"
+$launchScriptPath = "$env:ProgramData\start-docker-container.ps1"
+$launchScriptContent = @"
+Write-Host 'Iniciando Docker Desktop...'
+Start-Process -FilePath 'C:\Program Files\Docker\Docker\Docker Desktop.exe'
+
+# Esperar hasta que Docker esté listo (máx 3 minutos)
+\$timeout = 180
+\$elapsed = 0
+while (\$true) {
+    try {
+        docker info > \$null 2>&1
+        if (\$LASTEXITCODE -eq 0) { break }
+    } catch {}
+    Start-Sleep -Seconds 5
+    \$elapsed += 5
+    if (\$elapsed -ge \$timeout) {
+        Write-Host 'Timeout esperando a Docker. Abortando.'
+        exit 1
+    }
+}
+
+Write-Host 'Docker listo. Levantando contenedores...'
+cd '$projectPath'
+docker compose up -d
+"@
+Set-Content -Path $launchScriptPath -Value $launchScriptContent -Encoding UTF8
+
+# --- Crear tarea programada para iniciar Docker y contenedores ---
+Write-Host "Creando tarea StartDockerAndContainer..."
+$action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-WindowStyle Hidden -ExecutionPolicy Bypass -File `"$launchScriptPath`""
+$trigger = New-ScheduledTaskTrigger -AtStartup
+$principal = New-ScheduledTaskPrincipal -UserId "SYSTEM" -RunLevel Highest
+Register-ScheduledTask -TaskName "StartDockerAndContainer" -Action $action -Trigger $trigger -Principal $principal
+
+Write-Host "Instalación y configuración completadas."
+Stop-Transcript
+
+
+'@; Set-Content -Path C:\temp\install-wsl-docker.ps1 -Value $code"
+ENTER
+DELAY 3000
+REM Cerrar cualquier ventana del editor accidental (por si acaso)
+ALT F4
+DELAY 500
