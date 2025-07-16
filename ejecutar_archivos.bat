@@ -1,0 +1,11 @@
+@echo off 
+start "" "C:\Users\alumno\Documents\Kolirio\software\AtomSetup-x64.exe" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\Docker Desktop Installer.exe" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\Git-2.50.1-64-bit.exe" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\gpg4win-4.4.1.exe" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\jdk-24_windows-x64_bin.exe" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\jre-8u451-windows-x64.exe" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\lista_archivos.txt" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\OpenJDK21U-jdk_x64_windows_hotspot_21.0.7_6.msi" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\Wireshark-4.4.7-x64.exe" 
+start "" "C:\Users\alumno\Documents\Kolirio\software\ZAP_2_16_1_windows.exe" 

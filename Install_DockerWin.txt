@@ -1,0 +1,40 @@
+REM Ejecutar PowerShell como admin
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+WAITFOR "Windows PowerShell"
+DELAY 1000
+STRING Start-Process powershell -Verb runAs
+ENTER
+
+WAITFOR "Administrator: Windows PowerShell"
+DELAY 1000
+ALT y
+DELAY 1000
+
+REM Instalar WSL y Ubuntu
+STRING wsl --install -d Ubuntu
+ENTER
+WAITFOR "Downloading"
+DELAY 1000
+
+REM Descargar Docker Desktop (versión estable actual)
+STRING Invoke-WebRequest "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe" -OutFile "$env:USERPROFILE\Downloads\DockerInstaller.exe"
+ENTER
+WAITFOR "Completed"
+DELAY 1000
+
+REM Ejecutar instalador de Docker
+STRING Start-Process "$env:USERPROFILE\Downloads\DockerInstaller.exe" -Wait
+ENTER
+WAITFOR "Docker Desktop Installer"
+DELAY 2000
+
+REM Esperar instalación en background (~2 min)
+DELAY 120000
+
+REM Reiniciar (opcional)
+STRING shutdown /r /t 5
+ENTER

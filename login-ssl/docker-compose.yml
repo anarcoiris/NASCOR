@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  php-apache-ssl:
+    image: php:8.2-apache
+    container_name: php-apache-ssl
+    ports:
+      - "8443:443"
+    volumes:
+      - C:/Docker/login-ssl/www:/var/www/html
+      - C:/Docker/login-ssl/apache:/etc/apache2/sites-available
+      - C:/Docker/login-ssl/ssl:/etc/ssl/private
+    command: >
+      sh -c "
+        a2enmod ssl &&
+        a2ensite default-ssl &&
+        a2dissite 000-default &&
+        apache2-foreground
+      "
