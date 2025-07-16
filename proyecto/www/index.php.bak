@@ -1,0 +1,10 @@
+<?php
+$mysqli = new mysqli("mysql", "usuario", "clave", "ejemplo");
+if ($mysqli->connect_error) {
+    die("Conexión fallida: " . $mysqli->connect_error);
+}
+$result = $mysqli->query("SELECT * FROM test");
+while ($row = $result->fetch_assoc()) {
+    echo "ID: " . $row['id'] . " - Nombre: " . $row['nombre'] . "<br>";
+}
+?>

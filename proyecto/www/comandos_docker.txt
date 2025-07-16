@@ -1,0 +1,56 @@
+docker version
+
+https://hub.docker.com/extensions/portainer/portainer-docker-extension
+docker volume create portainer_data
+
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+http://localhost:9443
+
+https://hub.docker.com/_/mysql/
+mysql:latest
+MYSQL_ROOT_PASSWORD
+
+Dockerfile --
+FROM php:8.2-apache
+RUN docker-php-ext-install mysqli pdo pdo_mysql
+
+/var/www/html 
+C:/Docker/www
+
+
+Es necesario usar el siguiente fichero test_database.php
+<?php
+// Configuración de la base de datos
+$host = '172.17.0.2:3306'; // Cambia esto si tu base de datos está en otro servidor
+$db = 'mysql'; // Reemplaza con tu base de datos
+$user = 'root'; // Reemplaza con tu usuario
+$pass = 'root'; // Reemplaza con tu contraseña
+$charset = 'utf8mb4';
+
+// Configuración de la conexión PDO
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$options = [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES   => false,
+];
+
+try {
+    // Crear una nueva conexión PDO
+    $pdo = new PDO($dsn, $user, $pass, $options);
+
+    // Ejecutar la consulta
+    $stmt = $pdo->query("SELECT NOW() AS current_datetime");
+    
+    // Obtener y mostrar el resultado
+    $row = $stmt->fetch();
+    echo "La fecha y hora actual es: " . $row['current_datetime'];
+
+} catch (\PDOException $e) {
+    // Manejo de errores
+    throw new \PDOException($e->getMessage(), (int)$e->getCode());
+}
+?>
+
+http://localhost:8080/test_database.php
