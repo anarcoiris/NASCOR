@@ -1,0 +1,33 @@
+DELAY 2000
+GUI r
+DELAY 300
+STRING powershell -NoP -W Hidden -Command "New-Item -Path C:\temp -ItemType Directory -Force; $code = @'
+Start-Transcript -Path `$env:TEMP\install-wsl-docker.log -Append
+if (-not (wsl -l -q | Select-String -Pattern `"Ubuntu`")) {
+    wsl --install -d Ubuntu
+    Start-Sleep -Seconds 30
+}
+wsl --update
+`$dockerInstaller = `$env:TEMP + '\DockerDesktopInstaller.exe'
+if (-not (Test-Path `$dockerInstaller)) {
+    Invoke-WebRequest -Uri `"https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe`" -OutFile `$dockerInstaller
+}
+`$dockerPath = `"C:\Program Files\Docker\Docker\Docker Desktop.exe`"
+if (-not (Test-Path `$dockerPath)) {
+    Start-Process -FilePath `$dockerInstaller -ArgumentList `"install`", `"--quiet`" -Wait
+}
+if (Test-Path `$dockerPath) {
+    Start-Process `$dockerPath
+}
+Unregister-ScheduledTask -TaskName `"InstallWSLAndDocker`" -Confirm:`$false
+Stop-Transcript
+'@; Set-Content -Path C:\temp\install-wsl-docker.ps1 -Value $code"
+ENTER
+DELAY 3000
+REM Cerrar cualquier ventana del editor accidental (por si acaso)
+ALT F4
+DELAY 500
+GUI r
+DELAY 300
+STRING powershell -WindowStyle Hidden -Command "schtasks /create /tn InstallWSLAndDocker /tr 'powershell.exe -ExecutionPolicy Bypass -File C:\temp\install-wsl-docker.ps1' /sc onstart /ru SYSTEM /rl HIGHEST"
+ENTER

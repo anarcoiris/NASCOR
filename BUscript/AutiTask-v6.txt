@@ -1,0 +1,202 @@
+DELAY 2000
+GUI r
+DELAY 300
+STRING powershell -NoProfile -WindowStyle Hidden -Command "New-Item -Path C:\temp -ItemType Directory -Force"
+ENTER
+DELAY 500
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Set-Content -Path C:\temp\install-wsl-docker.ps1 -Value '# install-wsl-docker.ps1' -Encoding UTF8"
+ENTER
+DELAY 500
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'Start-Transcript -Path \"$env:TEMP\install-wsl-docker.log\" -Append'"
+ENTER
+DELAY 500
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value ''"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '# Instalación WSL en segundo plano'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$wslJob = Start-Job -ScriptBlock { wsl --install; Start-Sleep -Seconds 30; wsl --update }'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value ''"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '# Instalar Docker Desktop'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$dockerInstaller = \"$env:TEMP\DockerDesktopInstaller.exe\"'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'if (-not (Test-Path $dockerInstaller)) { Invoke-WebRequest -Uri \"https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe\" -OutFile $dockerInstaller }'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$dockerPath = \"C:\Program Files\Docker\Docker\Docker Desktop.exe\"'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'if (-not (Test-Path $dockerPath)) { Start-Process -FilePath $dockerInstaller -ArgumentList \"install\", \"--quiet\" -Wait }'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value ''"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '# Esperar a que WSL termine'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'Wait-Job $wslJob; Receive-Job $wslJob; Remove-Job $wslJob'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value ''"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '# Verificar estado WSL'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$wslDistros = wsl -l -v 2>$null'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$wslOk = $false'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'if ($wslDistros -match \"Ubuntu\") { $wslOk = $true }'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value ''"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '# Verificar Docker'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$dockerOk = Test-Path $dockerPath'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value ''"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'if ($wslOk -and $dockerOk) { Unregister-ScheduledTask -TaskName \"InstallWSLAndDocker\" -Confirm:$false } else { Stop-Transcript; exit 1 }'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value ''"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '# Crear script para arrancar Docker y contenedores'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$projectPath = \"C:\ruta\a\tu\proyecto\"'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$launchScriptPath = \"$env:ProgramData\start-docker-container.ps1\"'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '$launchScriptContent = @\"'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'Start-Process -FilePath \"C:\Program Files\Docker\Docker\Docker Desktop.exe\"'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '\$timeout = 180'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '\$elapsed = 0'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'while (\$true) {'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '    try {'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '        docker info > \$null 2>&1'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '        if (\$LASTEXITCODE -eq 0) { break }'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '    } catch {}'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '    Start-Sleep -Seconds 5'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '    \$elapsed += 5'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '    if (\$elapsed -ge \$timeout) {'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '        exit 1'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '    }'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '}'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'cd \"$projectPath\"'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value 'docker compose up -d'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value '\"@'"
+ENTER
+DELAY 300
+
+STRING powershell -NoProfile -WindowStyle Hidden -Command "Add-Content -Path C:\temp\install-wsl-docker.ps1 -Value ''
+Write-Host \"Creando tarea programada StartDockerAndContainer...\"
+$action = New-ScheduledTaskAction -Execute \"powershell.exe\" -Argument \"-WindowStyle Hidden -ExecutionPolicy Bypass -File `$launchScriptPath\"
+$trigger = New-ScheduledTaskTrigger -AtStartup
+$principal = New-ScheduledTaskPrincipal -UserId \"SYSTEM\" -RunLevel Highest
+Register-ScheduledTask -TaskName \"StartDockerAndContainer\" -Action $action -Trigger $trigger -Principal $principal
+
+Write-Host \"Instalación y configuración completadas.\"
+Stop-Transcript
+'"
+ENTER
