@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Teclado Mecánico",
+    "descripcion": "Teclado mecánico con retroiluminación RGB",
+    "categoria": "perifericos",
+    "precio": 59.99,
+    "stock": 120
+  },
+  {
+    "nombre": "Ratón Inalámbrico",
+    "descripcion": "Ratón ergonómico con conexión Bluetooth",
+    "categoria": "perifericos",
+    "precio": 24.5,
+    "stock": 80
+  },
+  {
+    "nombre": "Monitor 27''",
+    "descripcion": "Monitor IPS 27 pulgadas 2K",
+    "categoria": "pantallas",
+    "precio": 189.0,
+    "stock": 50
+  },
+  {
+    "nombre": "Disco SSD 1TB",
+    "descripcion": "Unidad SSD de 1TB para almacenamiento rápido",
+    "categoria": "almacenamiento",
+    "precio": 109.99,
+    "stock": 30
+  },
+  {
+    "nombre": "Auriculares Gaming",
+    "descripcion": "Auriculares con micrófono y sonido envolvente",
+    "categoria": "audio",
+    "precio": 49.99,
+    "stock": 15
+  },
+  {
+    "nombre": "Webcam HD",
+    "descripcion": "Webcam 1080p con micrófono integrado",
+    "categoria": "video",
+    "precio": 39.95,
+    "stock": 5
+  }
+]
