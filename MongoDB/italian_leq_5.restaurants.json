@@ -1,0 +1,405 @@
+[{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f46fed"
+  },
+  "address": {
+    "building": "1167",
+    "coord": [
+      -73.9589021,
+      40.7807048
+    ],
+    "street": "Madison Avenue",
+    "zipcode": "10028"
+  },
+  "borough": "Manhattan",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2013-12-18T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 0
+    }
+  ],
+  "name": "Morini Ristorante",
+  "restaurant_id": "41712685"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f47825"
+  },
+  "address": {
+    "building": "2508",
+    "coord": [
+      -74.10943859999999,
+      40.5699547
+    ],
+    "street": "Hylan Blvd",
+    "zipcode": "10306"
+  },
+  "borough": "Staten Island",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-04-17T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 2
+    }
+  ],
+  "name": "Alor Pasta",
+  "restaurant_id": "50002775"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f47c56"
+  },
+  "address": {
+    "building": "26",
+    "coord": [
+      -73.9695752,
+      40.7666629
+    ],
+    "street": "East   64 Street",
+    "zipcode": "10065"
+  },
+  "borough": "Manhattan",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-07-16T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 4
+    }
+  ],
+  "name": "Altesi Ristorante",
+  "restaurant_id": "50005954"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f47ce9"
+  },
+  "address": {
+    "building": "165",
+    "coord": [
+      -73.9811976,
+      40.7439891
+    ],
+    "street": "Lexington Avenue",
+    "zipcode": "10016"
+  },
+  "borough": "Manhattan",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-05-17T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 0
+    }
+  ],
+  "name": "Trattoria Belverde",
+  "restaurant_id": "50006349"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f47cf2"
+  },
+  "address": {
+    "building": "637",
+    "coord": [
+      -73.963634,
+      40.67830499999999
+    ],
+    "street": "Washington Avenue",
+    "zipcode": "11238"
+  },
+  "borough": "Brooklyn",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-06-13T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 2
+    }
+  ],
+  "name": "Almadira",
+  "restaurant_id": "50006399"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f47e76"
+  },
+  "address": {
+    "building": "114",
+    "coord": [
+      -74.00597499999999,
+      40.718806
+    ],
+    "street": "Franklin Street",
+    "zipcode": "10013"
+  },
+  "borough": "Manhattan",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-08-05T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 2
+    }
+  ],
+  "name": "Tutto Il Giorno",
+  "restaurant_id": "50008073"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f47eb6"
+  },
+  "address": {
+    "building": "103-20",
+    "coord": [
+      -73.83702860000001,
+      40.6817591
+    ],
+    "street": "Liberty Avenue",
+    "zipcode": "11417"
+  },
+  "borough": "Queens",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-04-08T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 2
+    }
+  ],
+  "name": "Romeo'S Pizza And Pasta",
+  "restaurant_id": "50008206"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f47eff"
+  },
+  "address": {
+    "building": "51",
+    "coord": [
+      -74.00368069999999,
+      40.7331378
+    ],
+    "street": "Grove Street",
+    "zipcode": "10014"
+  },
+  "borough": "Manhattan",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2015-01-02T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 3
+    }
+  ],
+  "name": "Via Carota",
+  "restaurant_id": "50008323"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f4804d"
+  },
+  "address": {
+    "building": "327",
+    "coord": [
+      -73.983002,
+      40.694574
+    ],
+    "street": "Gold Street",
+    "zipcode": "11201"
+  },
+  "borough": "Brooklyn",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-10-08T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 0
+    }
+  ],
+  "name": "Forno Rosso Pizzeria",
+  "restaurant_id": "50009755"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f481d8"
+  },
+  "address": {
+    "building": "135",
+    "coord": [
+      -74.0021428,
+      40.7347462
+    ],
+    "street": "7 Avenue South",
+    "zipcode": "10014"
+  },
+  "borough": "Manhattan",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2015-01-20T00:00:00.000Z"
+      },
+      "grade": "Not Yet Graded",
+      "score": null
+    }
+  ],
+  "name": "Prime 135",
+  "restaurant_id": "50011122"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f48211"
+  },
+  "address": {
+    "building": "7814",
+    "coord": [
+      -73.9940039,
+      40.6088642
+    ],
+    "street": "20 Avenue",
+    "zipcode": "11214"
+  },
+  "borough": "Brooklyn",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-09-05T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 4
+    }
+  ],
+  "name": "No Name Cafe At 20Th Ave",
+  "restaurant_id": "50011314"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f484ac"
+  },
+  "address": {
+    "building": "331",
+    "coord": [
+      -74.003748,
+      40.7221847
+    ],
+    "street": "W Broadway",
+    "zipcode": "10013"
+  },
+  "borough": "Manhattan",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-10-10T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 3
+    }
+  ],
+  "name": "Il Mulino Prime",
+  "restaurant_id": "50013798"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f48533"
+  },
+  "address": {
+    "building": "NKA",
+    "coord": [
+      -73.87425,
+      40.7766392
+    ],
+    "street": "Laguardia Airport",
+    "zipcode": "11371"
+  },
+  "borough": "Queens",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-11-25T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 4
+    }
+  ],
+  "name": "Villa Italian Kitchen",
+  "restaurant_id": "50014290"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f48604"
+  },
+  "address": {
+    "building": "483",
+    "coord": [
+      -73.97324569999999,
+      40.78460949999999
+    ],
+    "street": "Columbus Avenue",
+    "zipcode": "10024"
+  },
+  "borough": "Manhattan",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2014-11-21T00:00:00.000Z"
+      },
+      "grade": "A",
+      "score": 2
+    }
+  ],
+  "name": "Bellini",
+  "restaurant_id": "50014972"
+},
+{
+  "_id": {
+    "$oid": "5eb3d669b31de5d588f488bb"
+  },
+  "address": {
+    "building": "66-39",
+    "coord": [
+      -73.89733199999999,
+      40.707937
+    ],
+    "street": "Fresh Pond Road",
+    "zipcode": "11385"
+  },
+  "borough": "Queens",
+  "cuisine": "Italian",
+  "grades": [
+    {
+      "date": {
+        "$date": "2015-01-20T00:00:00.000Z"
+      },
+      "grade": "Not Yet Graded",
+      "score": 2
+    }
+  ],
+  "name": "Fresco Deli & Kitchen",
+  "restaurant_id": "50016933"
+}]

@@ -1,0 +1,47 @@
+// 🎥 Crear películas (si no existen)
+MERGE (m1:Movie {name: "Iron Man"})
+MERGE (m2:Movie {name: "Avengers"})
+MERGE (m3:Movie {name: "The Hangover"})
+MERGE (m4:Movie {name: "Deadpool"})
+
+// 🎭 Crear géneros (si no existen)
+MERGE (g1:Genre {name: "Action"})
+MERGE (g2:Genre {name: "Comedy"})
+
+// 🔗 Relacionar películas con géneros (si no existen las relaciones)
+MERGE (m1)-[:IN_GENRE]->(g1)
+MERGE (m2)-[:IN_GENRE]->(g1)
+MERGE (m3)-[:IN_GENRE]->(g2)
+MERGE (m4)-[:IN_GENRE]->(g1)
+MERGE (m4)-[:IN_GENRE]->(g2)
+
+// 👤 Crear usuarios
+MERGE (u1:User {id: "1"})
+MERGE (u2:User {id: "2"})
+
+// ⭐ Crear valoraciones (relaciones con propiedad)
+MERGE (u1)-[r1:RATED]->(m1)
+SET r1.rating = 5.0
+
+MERGE (u1)-[r2:RATED]->(m2)
+SET r2.rating = 4.0
+
+MERGE (u1)-[r3:RATED]->(m4)
+SET r3.rating = 5.0
+
+MERGE (u2)-[r4:RATED]->(m3)
+SET r4.rating = 3.0
+
+MERGE (u2)-[r5:RATED]->(m4)
+SET r5.rating = 4.0
+
+// 🎥 Añadir puntuaciones IMDb
+MERGE (rImdb1:ImdbRating {rating: 7.9})
+MERGE (rImdb2:ImdbRating {rating: 8.1})
+MERGE (rImdb3:ImdbRating {rating: 7.7})
+MERGE (rImdb4:ImdbRating {rating: 8.0})
+
+MERGE (m1)-[:HAS_IMDB_RATING]->(rImdb1)
+MERGE (m2)-[:HAS_IMDB_RATING]->(rImdb2)
+MERGE (m3)-[:HAS_IMDB_RATING]->(rImdb3)
+MERGE (m4)-[:HAS_IMDB_RATING]->(rImdb4)

@@ -1,4 +1,4 @@
-# version: '3'
+version: '3'
 
 services:
 
@@ -11,12 +11,12 @@ services:
   prometheus:
     image: prom/prometheus
     container_name: prometheus
-    volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
       - 9090:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
 
-  grafana: # admin /// pwd1234
+  grafana:  # admin /// pwd1234
     image: grafana/grafana
     container_name: grafana
     ports:
@@ -38,6 +38,7 @@ services:
       - DOCKER_INFLUXDB_INIT_ORG=nina
       - DOCKER_INFLUXDB_INIT_BUCKET=nina_logs
       - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=my-super-secret-token
+
   mongo:
     image: mongo
     container_name: mongodb
@@ -47,7 +48,6 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: root
-
 
 volumes:
   grafana-storage:

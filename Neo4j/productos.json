@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Teclado Mecánico",
+    "categoria": "perifericos"
+  },
+  {
+    "nombre": "Ratón Inalámbrico",
+    "categoria": "perifericos"
+  },
+  {
+    "nombre": "Monitor 27''",
+    "categoria": "pantallas"
+  },
+  {
+    "nombre": "Disco SSD 1TB",
+    "categoria": "almacenamiento"
+  },
+  {
+    "nombre": "Auriculares Gaming",
+    "categoria": "audio"
+  },
+  {
+    "nombre": "Webcam HD",
+    "categoria": "video"
+  }
+]

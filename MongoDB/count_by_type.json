@@ -1,0 +1,100 @@
+[{
+  "_id": "Crime",
+  "count": 2448
+},
+{
+  "_id": "Western",
+  "count": 241
+},
+{
+  "_id": "Romance",
+  "count": 3306
+},
+{
+  "_id": "Thriller",
+  "count": 2432
+},
+{
+  "_id": "Music",
+  "count": 770
+},
+{
+  "_id": "Horror",
+  "count": 1445
+},
+{
+  "_id": "Animation",
+  "count": 911
+},
+{
+  "_id": "Comedy",
+  "count": 6477
+},
+{
+  "_id": "Documentary",
+  "count": 1828
+},
+{
+  "_id": "Film-Noir",
+  "count": 77
+},
+{
+  "_id": "Adventure",
+  "count": 1879
+},
+{
+  "_id": "Fantasy",
+  "count": 1046
+},
+{
+  "_id": "Family",
+  "count": 1231
+},
+{
+  "_id": "History",
+  "count": 873
+},
+{
+  "_id": "Biography",
+  "count": 1267
+},
+{
+  "_id": "News",
+  "count": 44
+},
+{
+  "_id": "Mystery",
+  "count": 1139
+},
+{
+  "_id": "Sport",
+  "count": 363
+},
+{
+  "_id": "Sci-Fi",
+  "count": 927
+},
+{
+  "_id": "Short",
+  "count": 442
+},
+{
+  "_id": "War",
+  "count": 698
+},
+{
+  "_id": "Drama",
+  "count": 12367
+},
+{
+  "_id": "Action",
+  "count": 2350
+},
+{
+  "_id": "Musical",
+  "count": 438
+},
+{
+  "_id": "Talk-Show",
+  "count": 1
+}]

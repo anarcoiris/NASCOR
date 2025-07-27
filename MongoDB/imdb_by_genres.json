@@ -1,0 +1,100 @@
+[{
+  "_id": "Documentary",
+  "averageRating": 7.383058305830583
+},
+{
+  "_id": "Musical",
+  "averageRating": 6.685354691075515
+},
+{
+  "_id": "Crime",
+  "averageRating": 6.702741407528642
+},
+{
+  "_id": "Romance",
+  "averageRating": 6.671168988491823
+},
+{
+  "_id": "Short",
+  "averageRating": 7.377574370709382
+},
+{
+  "_id": "Music",
+  "averageRating": 6.940129870129869
+},
+{
+  "_id": "Drama",
+  "averageRating": 6.809149160515857
+},
+{
+  "_id": "War",
+  "averageRating": 7.135251798561151
+},
+{
+  "_id": "Action",
+  "averageRating": 6.393779292714103
+},
+{
+  "_id": "Sci-Fi",
+  "averageRating": 6.233947939262473
+},
+{
+  "_id": "Sport",
+  "averageRating": 6.784254143646409
+},
+{
+  "_id": "Mystery",
+  "averageRating": 6.527425044091711
+},
+{
+  "_id": "Biography",
+  "averageRating": 7.095249406175771
+},
+{
+  "_id": "History",
+  "averageRating": 7.175086107921929
+},
+{
+  "_id": "Talk-Show",
+  "averageRating": 7
+},
+{
+  "_id": "News",
+  "averageRating": 7.252272727272728
+},
+{
+  "_id": "Fantasy",
+  "averageRating": 6.414189837008629
+},
+{
+  "_id": "Family",
+  "averageRating": 6.382262001627339
+},
+{
+  "_id": "Adventure",
+  "averageRating": 6.534504792332268
+},
+{
+  "_id": "Horror",
+  "averageRating": 5.83375
+},
+{
+  "_id": "Film-Noir",
+  "averageRating": 7.397402597402598
+},
+{
+  "_id": "Animation",
+  "averageRating": 6.901323042998897
+},
+{
+  "_id": "Comedy",
+  "averageRating": 6.481490644812124
+},
+{
+  "_id": "Western",
+  "averageRating": 6.839004149377594
+},
+{
+  "_id": "Thriller",
+  "averageRating": 6.33446141147338
+}]
