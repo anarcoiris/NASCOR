@@ -1,0 +1,106 @@
+//Encontrar Cloud Atlas, directores:
+
+	//Pelicula
+
+MATCH (m:Movie {title: "Cloud Atlas"})
+RETURN m;
+
+
+	// Directores
+
+MATCH path = (p:Person)-[:DIRECTED]->(m:Movie {title: 'Cloud Atlas'})
+RETURN path;
+
+
+//Peliculas por genero
+
+MATCH (m:Movie)
+MATCH (g:Genre)
+MATCH generos = (m) - [:IN_GENRE]->(g)
+RETURN generos
+
+
+(:Movie {name: "Iron Man"})-[:IN_GENRE]->(:Genre {name: "Action"})
+2
+(:Movie {name: "Avengers"})-[:IN_GENRE]->(:Genre {name: "Action"})
+3
+(:Movie {name: "The Hangover"})-[:IN_GENRE]->(:Genre {name: "Comedy"})
+4
+(:Movie {name: "Deadpool"})-[:IN_GENRE]->(:Genre {name: "Action"})
+5
+(:Movie {name: "Deadpool"})-[:IN_GENRE]->(:Genre {name: "Comedy"})
+
+
+//Peliculas con imdb_rating > 8
+MATCH (m:Movie)-[:HAS_IMDB_RATING]->(r:ImdbRating)
+WHERE r.rating > 8.0
+RETURN m.name AS pelicula, r.rating AS imdb_rating
+
+
+//ScorePonderado
+
+Pelicula,	TotalVotos,	RatingUsuarios,	RatingIMDb,	ScorePonderado
+Iron Man,	1,		5.0,		7.9,		6.45
+Avengers,	1,		4.0,		8.1,		6.05
+Deadpool,	2,		4.5,		8.0,		5.666666666666667
+The Hangover,	1,		3.0,		7.7,		5.35
+
+//Número de compras (numero_compras.png)
+MATCH (c:Cliente) - [:COMPRA]->(p:Producto)
+RETURN c.nombre AS cliente, COUNT(p) AS numero_de_compras;
+
+cliente,	numero_de_compras
+
+Elena,		3
+Clara,		1
+Luis,		2
+Ana,		1
+Carlos,		1
+
+//Productos comprados por mas de un cliente
+
+MATCH (c:Cliente)-[:COMPRA]->(p:Producto)
+WITH p, COUNT(DISTINCT c) AS numero_de_clientes
+WHERE numero_de_clientes > 1
+RETURN p.nombre AS producto, numero_de_clientes
+
+producto,numero_de_clientes
+Auriculares Gaming,3
+Ratón Inalámbrico,2
+
+
+// Productos comprados por Ana, comprados por cliente distinto a Ana:
+
+MATCH (ana:Cliente {nombre: "Ana"})-[:COMPRA]->(producto:Producto)
+MATCH (otro:Cliente)-[:COMPRA]->(producto)
+WHERE otro.nombre <> "Ana"
+RETURN producto.nombre AS producto, COLLECT(DISTINCT otro.nombre) AS otros_clientes;
+
+producto,		otros_clientes
+Auriculares Gaming,	"[Elena, Luis]"
+
+
+//SUGERENCIA: Otros clientes que compraron (producto) también compraron (otro.producto)
+
+// Productos que Ana ha comprado
+MATCH (ana:Cliente {nombre: "Ana"})-[:COMPRA]->(p1:Producto)
+
+// Otros clientes que también compraron esos productos
+MATCH (otro:Cliente)-[:COMPRA]->(p1)
+WHERE otro.nombre <> "Ana"
+
+// Qué otros productos han comprado esos clientes
+MATCH (otro)-[:COMPRA]->(p2:Producto)
+WHERE NOT (ana)-[:COMPRA]->(p2)
+
+// Armar la sugerencia
+RETURN DISTINCT
+       p1.nombre AS producto_comun,
+       p2.nombre AS sugerencia,
+       COUNT(DISTINCT otro) AS numero_de_clientes_que_compraron
+ORDER BY numero_de_clientes_que_compraron DESC;
+
+producto_comun,		sugerencia,		numero_de_clientes_que_compraron
+Auriculares Gaming,	Ratón Inalámbrico,	1
+Auriculares Gaming,	Disco SSD 1TB,		1
+Auriculares Gaming,	Monitor 27'',		1
