@@ -3,7 +3,7 @@ import json
 import requests
 
 # Elasticsearch endpoint
-ELASTICSEARCH_URL = "http://localhost:9200/twitter/_doc/"
+ELASTICSEARCH_URL = "http://elasticsearch:9200/twitter/_doc/"
 
 # Kafka Consumer
 consumer = KafkaConsumer(

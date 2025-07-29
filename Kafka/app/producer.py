@@ -7,7 +7,7 @@ import sys
 
 # Variables externas
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
-QUERY = os.getenv("SEARCH_QUERY", "#tech")
+QUERIES = os.getenv("SEARCH_QUERIES").split(",")
 KAFKA_SERVER = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "kafka:9092")
 INITIAL_DELAY = int(os.getenv("INITIAL_DELAY", 0))  # segundos
 time.sleep(INITIAL_DELAY)
@@ -22,8 +22,11 @@ producer = KafkaProducer(
 client = tweepy.Client(bearer_token=BEARER_TOKEN)
 
 def fetch_tweets():
-    tweets = client.search_recent_tweets(query=QUERY, tweet_fields=["created_at", "text", "id"], max_results=10)
+    queries = os.getenv("SEARCH_QUERIES", "#tech").split(",")
 
+for query in queries:
+    print(f"Fetching tweets for query: {query}")
+    tweets = client.search_recent_tweets(query=query, tweet_fields=["created_at", "text", "id"], max_results=10)
     if tweets.data:  # type: ignore
         for tweet in tweets.data:  # type: ignore
             tweet_data = {

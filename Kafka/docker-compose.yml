@@ -39,7 +39,7 @@ services:
       dockerfile: Dockerfile
     environment:
       - BEARER_TOKEN=AAAAAAAAAAAAAAAAAAAAAFsk3QEAAAAAA%2BHotdC0qlY%2BXDQaM9sPSwXZYJ8%3DRWWnAVPj2yMRumJOnxd4oUd0D0ezenxuFgnkW4d6dh5XVTwNyD
-      - SEARCH_QUERY=#btc
+      - SEARCH_QUERIES=#btc,#bitcoin,#bullish,#crypto
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
       - INITIAL_DELAY=0
     command: ["sh", "-c", "python wait_for_kafka.py && python producer.py"]
@@ -49,7 +49,7 @@ services:
       dockerfile: Dockerfile
     environment:
       - BEARER_TOKEN=AAAAAAAAAAAAAAAAAAAAAPM03QEAAAAAUk%2BTC%2FD8Kq7jxWNSiUo3ZEAW9pU%3D2dWJ58CpGZQ2AWYblTmvOdSgLUDfVnrdkDZKS0M8YC3Ie7qKqn
-      - SEARCH_QUERY=#bitcoin
+      - SEARCH_QUERIES=#innovation,#tech,#electronic,#device,#gadgets
       - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
       - INITIAL_DELAY=30
     command: ["sh", "-c", "python wait_for_kafka.py && python producer.py"]
