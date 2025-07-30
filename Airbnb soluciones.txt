@@ -1,0 +1,21 @@
+SELECT MAX(price) AS precio_maximo
+FROM Airbnb
+
+#precio_maximo: 9000
+
+SELECT COUNT(*) AS apartamentos_baratos
+FROM airbnb
+WHERE price < 150;
+
+#apartamentos_baratos: 21510
+
+SELECT neighbourhood, AVG(price) AS precio_medio
+FROM airbnb
+GROUP BY neighbourhood
+ORDER BY precio_medio DESC
+LIMIT 3;
+
+#MAX(Precio_medio(neighbourhood), 3): 
+Volkspark Wilmersdorf	358.975
+Sch neberg-Nord	169.58938053097344
+Frankfurter Allee S d	153.22448979591837
