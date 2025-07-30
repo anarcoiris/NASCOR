@@ -2,11 +2,11 @@ from elasticsearch import Elasticsearch
 import json
 
 # Conexión
-es = Elasticsearch("http://localhost:9200")
+es = Elasticsearch("http://elasticsearch:9200")
 
 # Crear índice si no existe
-if not es.indices.exists(index="productos"):
-    es.indices.create(index="productos")
+#if not es.indices.exists(index="productos"):
+es.indices.create(index="productos")
 
 # Cargar productos
 with open("productos.json", "r", encoding="utf-8") as f:

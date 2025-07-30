@@ -1,8 +1,10 @@
 import sys
 
 if len(sys.argv) > 1 and sys.argv[1] == "producer":
+    time.sleep(300)
     import producer
 else:
+    time.sleep(300)
     import consumer
 
 import os

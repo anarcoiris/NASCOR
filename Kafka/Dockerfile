@@ -19,10 +19,12 @@ COPY requirements.txt .
 
 # Instalar dependencias de Python
 RUN pip install --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir -r requirements.txt && \
+    pip install elasticsearch
 
 # Copiar el resto del código
 COPY ./app .
+COPY ./elk .
 
 # Exponer puertos (si decides usar networking externo con Kafka o ES)
 EXPOSE 9092
