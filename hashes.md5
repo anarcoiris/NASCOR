@@ -1,0 +1,958 @@
+66f70d7f7c0a7741dc9f91b8910c4958 *./29julio/NASCOR/.git/config
+a0a7c3fff21f2aea3cfa1d0316dd816c *./29julio/NASCOR/.git/description
+451c465254693f819e5b44c7286f3d18 *./29julio/NASCOR/.git/HEAD
+ce562e08d8098926a3862fc6e7905199 *./29julio/NASCOR/.git/hooks/applypatch-msg.sample
+579a3c1e12a1e74a98169175fb913012 *./29julio/NASCOR/.git/hooks/commit-msg.sample
+a0b2633a2c8e97501610bd3f73da66fc *./29julio/NASCOR/.git/hooks/fsmonitor-watchman.sample
+2b7ea5cee3c49ff53d41e00785eb974c *./29julio/NASCOR/.git/hooks/post-update.sample
+054f9ffb8bfe04a599751cc757226dda *./29julio/NASCOR/.git/hooks/pre-applypatch.sample
+5029bfab85b1c39281aa9697379ea444 *./29julio/NASCOR/.git/hooks/pre-commit.sample
+39cb268e2a85d436b9eb6f47614c3cbc *./29julio/NASCOR/.git/hooks/pre-merge-commit.sample
+2c642152299a94e05ea26eae11993b13 *./29julio/NASCOR/.git/hooks/pre-push.sample
+56e45f2bcbc8226d2b4200f7c46371bf *./29julio/NASCOR/.git/hooks/pre-rebase.sample
+2ad18ec82c20af7b5926ed9cea6aeedd *./29julio/NASCOR/.git/hooks/pre-receive.sample
+2b5c047bdb474555e1787db32b2d2fc5 *./29julio/NASCOR/.git/hooks/prepare-commit-msg.sample
+c7ab00c7784efeadad3ae9b228d4b4db *./29julio/NASCOR/.git/hooks/push-to-checkout.sample
+4d67df3a8d5c98cb8565c07e42be0b04 *./29julio/NASCOR/.git/hooks/sendemail-validate.sample
+647ae13c682f7827c22f5fc08a03674e *./29julio/NASCOR/.git/hooks/update.sample
+4b2425eb1b301a7a1fea801b9443a38b *./29julio/NASCOR/.git/index
+036208b4a1ab4a235d75c181e685e5a3 *./29julio/NASCOR/.git/info/exclude
+88ad160998af8d416b48a1dc791feaa8 *./29julio/NASCOR/.git/logs/HEAD
+88ad160998af8d416b48a1dc791feaa8 *./29julio/NASCOR/.git/logs/refs/heads/29julio
+4b5d5818ff725d72230326a0a19e957e *./29julio/NASCOR/.git/logs/refs/remotes/origin/HEAD
+6c3826b2351b6900187a2ffdbca09c23 *./29julio/NASCOR/.git/objects/pack/pack-6522edc1c4f404d741dcb24c79e03da1f6cbbf1e.idx
+19f39adcaaf43893d33c923b46a4d02b *./29julio/NASCOR/.git/objects/pack/pack-6522edc1c4f404d741dcb24c79e03da1f6cbbf1e.pack
+0cc8a5481ef5af4dcfd3671aa6b6e529 *./29julio/NASCOR/.git/objects/pack/pack-6522edc1c4f404d741dcb24c79e03da1f6cbbf1e.rev
+92a654c6404849dbf35f4d3568753964 *./29julio/NASCOR/.git/packed-refs
+2536da5aa0cf6168929cac34894c6396 *./29julio/NASCOR/.git/refs/heads/29julio
+98b16e0b650190870f1b40bc8f4aec4e *./29julio/NASCOR/.git/refs/remotes/origin/HEAD
+a949922d90d2965c0497595036b5860e *./29julio/NASCOR/3 de julio.JPG
+16c37124a8cd0930d6f9c59442be2df9 *./29julio/NASCOR/Airbnb soluciones.txt
+4f87de2e2022870523a60a667482fe3f *./29julio/NASCOR/AutiTask-v2.txt
+71a2826569b50025f535d5883a5d1d11 *./29julio/NASCOR/AutiTask-v3.txt
+78920d9136b7cf0bc2064a701c30a857 *./29julio/NASCOR/AutiTask-v4.txt
+afd1c5f5469953b68be3e4dacc86de09 *./29julio/NASCOR/AutiTask-v5.txt
+76bf3e0aafadf05779391192b578ac30 *./29julio/NASCOR/AutiTask-v6.txt
+27f31d4c8da82accc591a54ef75d13f0 *./29julio/NASCOR/AutiTask-v7.txt
+6cf0f850b79dc2ef01444b989523230e *./29julio/NASCOR/AutiTask-v8.txt
+13dcfb0dbb708f39bdc59564be398db4 *./29julio/NASCOR/AutiTask.txt
+c069427cb2a72cd8b7d8c6208492ab5e *./29julio/NASCOR/badUSB mapper.txt
+e20aaa5ed3a510058e81f6ee158d3350 *./29julio/NASCOR/Bases de Datos/sample_sql.sql
+d80b3e514c75b9a968840886e2c270ed *./29julio/NASCOR/Bases de Datos/w3schools.sql
+4f87de2e2022870523a60a667482fe3f *./29julio/NASCOR/BUscript/AutiTask-v2.txt
+71a2826569b50025f535d5883a5d1d11 *./29julio/NASCOR/BUscript/AutiTask-v3.txt
+78920d9136b7cf0bc2064a701c30a857 *./29julio/NASCOR/BUscript/AutiTask-v4.txt
+afd1c5f5469953b68be3e4dacc86de09 *./29julio/NASCOR/BUscript/AutiTask-v5.txt
+76bf3e0aafadf05779391192b578ac30 *./29julio/NASCOR/BUscript/AutiTask-v6.txt
+27f31d4c8da82accc591a54ef75d13f0 *./29julio/NASCOR/BUscript/AutiTask-v7.txt
+6cf0f850b79dc2ef01444b989523230e *./29julio/NASCOR/BUscript/AutiTask-v8.txt
+13dcfb0dbb708f39bdc59564be398db4 *./29julio/NASCOR/BUscript/AutiTask.txt
+e454dc768841edb24ae91042e497f078 *./29julio/NASCOR/BUscript/XMR2.txt
+f7a4a2f33a38d23aa241b846939f8c48 *./29julio/NASCOR/BUscript/XMR2a.txt
+68505187348864fa53230db976035039 *./29julio/NASCOR/BUscript/XMR2b.txt
+8a3247d1468eb0aa8f5cdbed0e9bbcbb *./29julio/NASCOR/BUscript/XMR2c.txt
+2c31234f35f88dd2af5ebfb8935b1140 *./29julio/NASCOR/BUscript/XMR2d.txt
+c9950c2c99ca87390d2209ff289d27e4 *./29julio/NASCOR/BUscript/XMR2e.txt
+e7a9a64239d6ac24e460fceb1048de70 *./29julio/NASCOR/BUscript/XMR2f.txt
+0f0fa890749a69ecaec4f0352061baf1 *./29julio/NASCOR/BUscript/XMR2g.txt
+cfa6a40a210e016717fde041aad3272e *./29julio/NASCOR/BUscript/XMRIG.txt
+b234ea5fb7dc1f6cf8a6f6c02e8d3602 *./29julio/NASCOR/BUscript/XMRIG_fast.txt
+7c02536eb5bb81bd25c140909b0afe6d *./29julio/NASCOR/comandos_sqlmap.txt
+3edc1c9d66bc06f94eb3b9659d207efc *./29julio/NASCOR/Docs/anteriores/Guia_Practica_SSH_Putty_Kali-V1.0.docx
+34a0078e822a1444b8b1579036440b5e *./29julio/NASCOR/Docs/anteriores/Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./29julio/NASCOR/Docs/anteriores/Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./29julio/NASCOR/Docs/anteriores/Practicas_SSL.docx
+46465d5f24db6ab6497dc347b34f6f6a *./29julio/NASCOR/Docs/Practica_ELK-V1.0 (1).docx
+4f8558c8f194d60c0d30e30b3fed982b *./29julio/NASCOR/Docs/Practica_Hadoop-V0.1.docx
+e4a6e753733c67392689b30703bc2a8e *./29julio/NASCOR/Docs/Practica_Kafka-Twitter-V2.0.docx
+e545ad972c4802ae4f0942a89233a9ab *./29julio/NASCOR/Docs/Practica_MiniEcommerce-V1.0.docx
+1f4a697bbfae8bba8eb97362c2661bc5 *./29julio/NASCOR/Docs/Practica_MongoDB-V1.1.docx
+097f6b12b670a598f95431f3008db450 *./29julio/NASCOR/Docs/Practica_Neo4j-V1.0 (1).docx
+7bb441ee85d0798b6eef7dc80f2c5966 *./29julio/NASCOR/Docs/~$actica_ELK-V1.0 (1).docx
+aceccae226afbe7a04aa1e95a7ded719 *./29julio/NASCOR/Docs/~$actica_Hadoop-V0.1.docx
+eeb086a7854dae6cdce64f49eb87d64c *./29julio/NASCOR/ejecutar_archivos.bat
+b5ba88919c0940060bfc7e3dcd0d6c98 *./29julio/NASCOR/ELK/bulk_quijote.json
+4ccc34b4d3385aec38266faf4008e1da *./29julio/NASCOR/ELK/buscar_productos.py
+e2b3fd96a1b86ea0b3494f562607461b *./29julio/NASCOR/ELK/conversion_json.py
+182c09c799e13603dec2392639947b1b *./29julio/NASCOR/ELK/docker-compose.yml
+de5bde1d922590b28bc3b18b61b9ade0 *./29julio/NASCOR/ELK/productos.json
+3edc1c9d66bc06f94eb3b9659d207efc *./29julio/NASCOR/Guia_Practica_SSH_Putty_Kali-V1.0.docx
+b02274310829b4f8cb93a94fd86d87e4 *./29julio/NASCOR/Hadoop/base/Dockerfile
+aad7c3c0fc7a385e06cf46ea4954e356 *./29julio/NASCOR/Hadoop/base/entrypoint.sh
+ddf4b658fd4200c26c02f1d81236b2d2 *./29julio/NASCOR/Hadoop/datanode/Dockerfile
+de8b8a3165a268365c67124dc1695c9e *./29julio/NASCOR/Hadoop/datanode/run.sh
+52cbd63c646ce8af5b8df2d421d3d354 *./29julio/NASCOR/Hadoop/docker-compose-v3.yml
+ba848b3fa662d781561efe9622fa21bb *./29julio/NASCOR/Hadoop/docker-compose.yml
+f52ab3148e5398f00846e21ea4eeae3b *./29julio/NASCOR/Hadoop/hadoop.env
+744d81761ffd33c0639b81dea7cc5a7a *./29julio/NASCOR/Hadoop/historyserver/Dockerfile
+76b000896bd398938202b0b566c408c7 *./29julio/NASCOR/Hadoop/historyserver/run.sh
+0237491606933d9030779181f90b97f6 *./29julio/NASCOR/Hadoop/input/basico1.txt
+91252813665d2966d4375ddaeec06725 *./29julio/NASCOR/Hadoop/input/pg2701.txt
+1e6d3c941fe4233efbbd5820de939460 *./29julio/NASCOR/Hadoop/input/pg84.txt
+918092899266ca354431c30122ebb0f0 *./29julio/NASCOR/Hadoop/jar/hadoop-mapreduce-examples-2.7.1-sources.jar
+a46e3aa0154ceb8dda4336b97cce4440 *./29julio/NASCOR/Hadoop/jar/wget.exe
+93dbb3fe2dbd628ddece323289c57203 *./29julio/NASCOR/Hadoop/Makefile
+4e18e069ab5ee2ff54c090ec1fbcdbd8 *./29julio/NASCOR/Hadoop/namenode/Dockerfile
+c2729367c120b76f50cb7f18ac4b6366 *./29julio/NASCOR/Hadoop/namenode/run.sh
+2ae0229be332b5caddc514ecc18f4845 *./29julio/NASCOR/Hadoop/nginx/bde-hadoop.css
+2658d31bc7c2b6b7d26bebdd8d7f2342 *./29julio/NASCOR/Hadoop/nginx/default.conf
+ac61645c166e249eec40abb78dabfe56 *./29julio/NASCOR/Hadoop/nginx/Dockerfile
+468a0a39c248189156dc1589aab41aec *./29julio/NASCOR/Hadoop/nginx/materialize.min.css
+f2b0ab397af6241b5cdb81ae5398aa05 *./29julio/NASCOR/Hadoop/nodemanager/Dockerfile
+0ce8f51998173fdc60553949fe7e154e *./29julio/NASCOR/Hadoop/nodemanager/run.sh
+22d3dd6b4d784c5b12991ba2f26d1298 *./29julio/NASCOR/Hadoop/python/mapper.py
+14e3d0d4ca53a06800b316312103c53a *./29julio/NASCOR/Hadoop/python/reducer.py
+43b962ed7886d890432291d6ca6cf43e *./29julio/NASCOR/Hadoop/README.md
+60c2efab91e7c7ce19a4f5a176be46f7 *./29julio/NASCOR/Hadoop/resourcemanager/Dockerfile
+54d9a451500570a99cb767be003ad964 *./29julio/NASCOR/Hadoop/resourcemanager/run.sh
+b80d382219ca4e28207636915e8b7f70 *./29julio/NASCOR/Hadoop/resultado/resultado.txt
+88e37756ceb166e34e848442e79ed32f *./29julio/NASCOR/Hadoop/submit/Dockerfile
+2275d991ecbc6741bd38ad57bd0fcbfd *./29julio/NASCOR/Hadoop/submit/run.sh
+d08018b6926c09aecf37c409f6297451 *./29julio/NASCOR/Hadoop/submit/WordCount.jar
+e298c064a1f8130b9915afc77f08268c *./29julio/NASCOR/InstALL.bat
+91df1b4f1b4a982d1a5f949f810e0b61 *./29julio/NASCOR/Install_DockerWin.txt
+18046fb3934c4d16a8c903f33d577777 *./29julio/NASCOR/Kafka/app/check_env.py
+ad30c8cb6a12e3dba7f498647a69e9e8 *./29julio/NASCOR/Kafka/app/consumer.py
+9a4e844e7fad74c4fbddcb0ebc4ff137 *./29julio/NASCOR/Kafka/app/main.py
+83ab43ae47baf3059beaf4a80fd65976 *./29julio/NASCOR/Kafka/app/producer.py
+f2f67789ab6eed3ad12a5773b4cf3dee *./29julio/NASCOR/Kafka/app/producer_bak.py
+0e2f19bbcd730f3cef40e1300cae6121 *./29julio/NASCOR/Kafka/app/requirements.txt
+3d6843a0b39f1eb2c5a4388e4e88a91a *./29julio/NASCOR/Kafka/app/wait_for_kafka.py
+18046fb3934c4d16a8c903f33d577777 *./29julio/NASCOR/Kafka/check_env.py
+61d0b76de63e0443ec4d28c4959136b1 *./29julio/NASCOR/Kafka/create-kafka-topic.sh
+6edac84c8c4fb2834f03318f9a45c6cc *./29julio/NASCOR/Kafka/docker-compose.yml
+d86993276b2cc04b3c53044f744c7c87 *./29julio/NASCOR/Kafka/Dockerfile
+c4ce80604a56408afeead1420bb45d08 *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 134118.png
+e8a71c90b8bcdc4588015a47732097af *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 134258.png
+945308b8024ba3e246aeb7b5ade34265 *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 134441.png
+444b861c64b25ff1b66dbd2bc2e0e2f9 *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 134617.png
+ec209fde89d5e6296e2449376b09ab3c *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 134811.png
+bf390d9bb87df87b227ef5697089a9a0 *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 134828.png
+292d386c5043e9c94744323f7c71d7d2 *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 134909.png
+97707ca7ca44204b38519574c667399b *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 134956.png
+5eab130dd137162a0bbea7cfe67e46e9 *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-29 135353.png
+b3cee2c735d435f7cc67f725bfe407d5 *./29julio/NASCOR/Kafka/Documentacion/Captura de pantalla 2025-07-30 120250.png
+b5ba88919c0940060bfc7e3dcd0d6c98 *./29julio/NASCOR/Kafka/elk/bulk_quijote.json
+9909ebc242386774547fa3cdef8274e6 *./29julio/NASCOR/Kafka/elk/buscar_productos.py
+ca21960a95731d3189b251fcc74d1f2f *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 094636.png
+0a9d40c2bc1e89dc9036861ebc6b974a *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 094653.png
+1474570ecf4ccea0556991cfae4a77f6 *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 094739.png
+1e247aabb1a70351e95329fba859854f *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 094945.png
+02871f1b705bd1d8dbac2ae41be269c2 *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 095011.png
+a350aec4da1abcba88021f6adbbb54a6 *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 095156.png
+cd7c9cc67ca8adcd7a805d2a70361087 *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 095639.png
+3fffdd2e406aa7d75d8004092826614f *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 095856.png
+39afef4b1844cecbc04620d696f1b4ca *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 100158.png
+b942749389438c6c50726e454dfd7c0d *./29julio/NASCOR/Kafka/elk/Capturas/Captura de pantalla 2025-07-30 100346.png
+e2b3fd96a1b86ea0b3494f562607461b *./29julio/NASCOR/Kafka/elk/conversion_json.py
+de5bde1d922590b28bc3b18b61b9ade0 *./29julio/NASCOR/Kafka/elk/productos.json
+c754c992e4da52d9f86d9c8598cc8029 *./29julio/NASCOR/Kafka/requirements.txt
+697ff3b19bd039518b5940a4ff5977d4 *./29julio/NASCOR/Kafka/scripts.zip
+dcc379a9ba6b85c7f5514e61583a9083 *./29julio/NASCOR/Kafka bak.zip
+045c494a16581bc3a184f3695c468dee *./29julio/NASCOR/Kafka_1209_30julio2025.zip
+7c93d817a624220ec5f6fa1edeb63400 *./29julio/NASCOR/Kafka_1300_29julio2025.zip
+ef47aa9c8f32839aac3d9e928e326245 *./29julio/NASCOR/KbLo.txt
+d52fb87b06066f5e418d351e9ec44611 *./29julio/NASCOR/KbLo2.txt
+d5a742a8e4442b72a21a9e113170e680 *./29julio/NASCOR/KeybLayout.txt
+d41d8cd98f00b204e9800998ecf8427e *./29julio/NASCOR/lista_archivos.txt
+a55328d42101c736dac88d57a5f28be7 *./29julio/NASCOR/Login SSL/login-ssl/apache/default-ssl.conf
+26a369144dd2d3d721bc5ddad0c4edd6 *./29julio/NASCOR/Login SSL/login-ssl/docker-compose.yml
+c949c931cfea89fef9d4e06735ef8a7c *./29julio/NASCOR/Login SSL/login-ssl/ssl/selfsigned.crt
+80bf229d3d0247732105a3b39fabe610 *./29julio/NASCOR/Login SSL/login-ssl/ssl/selfsigned.key
+bcbfbadc5a3562301b15557442da649b *./29julio/NASCOR/Login SSL/login-ssl/www/index.php
+f688ae26e9cfa3ba6235477831d5122e *./29julio/NASCOR/Login SSL/login-ssl/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./29julio/NASCOR/Login SSL/login-ssl/www/login.php
+26fbb794da55dd76363ad2bcc9736be4 *./29julio/NASCOR/Login SSL/login-ssl/zap_root_ca.cer
+a55328d42101c736dac88d57a5f28be7 *./29julio/NASCOR/login-ssl/apache/default-ssl.conf
+e0b9dd1259e7b9b33cc1a47353520e1b *./29julio/NASCOR/login-ssl/Captura 1.png
+9355b31a2e0c68740cab82101cc8873d *./29julio/NASCOR/login-ssl/Captura 2.png
+26a369144dd2d3d721bc5ddad0c4edd6 *./29julio/NASCOR/login-ssl/docker-compose.yml
+c949c931cfea89fef9d4e06735ef8a7c *./29julio/NASCOR/login-ssl/ssl/selfsigned.crt
+c949c931cfea89fef9d4e06735ef8a7c *./29julio/NASCOR/login-ssl/ssl/selfsigned.crt.bak
+80bf229d3d0247732105a3b39fabe610 *./29julio/NASCOR/login-ssl/ssl/selfsigned.key
+80bf229d3d0247732105a3b39fabe610 *./29julio/NASCOR/login-ssl/ssl/selfsigned.key.bak
+bcbfbadc5a3562301b15557442da649b *./29julio/NASCOR/login-ssl/www/index.php
+f688ae26e9cfa3ba6235477831d5122e *./29julio/NASCOR/login-ssl/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./29julio/NASCOR/login-ssl/www/login.php
+26fbb794da55dd76363ad2bcc9736be4 *./29julio/NASCOR/login-ssl/zap_root_ca.cer
+6a673833cd5b62e460394d8405d1dc68 *./29julio/NASCOR/login-ssl/zap_root_ca_NascorPC.cer
+93faf8e481eb6226f2bd85512e8370f3 *./29julio/NASCOR/login-ssl.zip
+92dd926f095d68504780d8770e71a840 *./29julio/NASCOR/MongoDB/1.png
+93de87d3f61cf731e887b21a835e6ce6 *./29julio/NASCOR/MongoDB/16.PNG
+39c3e7de0d94d8ce5501d9d7da193fc9 *./29julio/NASCOR/MongoDB/17.PNG
+9d1e81facb0db491857862e27d234999 *./29julio/NASCOR/MongoDB/2.png
+ac22ba3b461c0e1ccee409a3610bee55 *./29julio/NASCOR/MongoDB/20.PNG
+dcfcce709bcad943b2a4239b325b8c42 *./29julio/NASCOR/MongoDB/21.PNG
+1f3e4202bb47b396e3797a23311f6d53 *./29julio/NASCOR/MongoDB/22.PNG
+4ae1a8acd084cea06027f8ffb91e51f7 *./29julio/NASCOR/MongoDB/9.json
+f32019d78a5ca6bd7cb8cf81fb3c95db *./29julio/NASCOR/MongoDB/9.PNG
+d9f077c72c1cc28d6e989aa354924bd3 *./29julio/NASCOR/MongoDB/Action.PNG
+5830a45fc7242ccf95303577368014ca *./29julio/NASCOR/MongoDB/add_comment_movies.PNG
+5da23fd007d8db408ba362065646e6ae *./29julio/NASCOR/MongoDB/and((or (cuisine Italian, mexican) ) borough Manhattan).PNG
+16caaad101985ad9a6ac1ec08c14bb86 *./29julio/NASCOR/MongoDB/avg_runtime.PNG
+a63ec2d06317e61062aff70032a63c18 *./29julio/NASCOR/MongoDB/Captura de pantalla 2025-07-14 111232.png
+1d875302b63cfa798b39d8583f3de6a7 *./29julio/NASCOR/MongoDB/Civilization_1985.PNG
+e3fbc6b153ebdfcecadfe10b32d26c0a *./29julio/NASCOR/MongoDB/count_by_type.json
+0d8758f0f0073024789186e6f2f7913e *./29julio/NASCOR/MongoDB/count_by_type.png
+25c9ae8618700f90ab9abbe47522c250 *./29julio/NASCOR/MongoDB/count_by_type2.png
+6a2937fa38e5b036ab7d49cff97adfca *./29julio/NASCOR/MongoDB/cuisine_types.json
+a21e0bc68bb6fae127e0a86ed88a1a7b *./29julio/NASCOR/MongoDB/different cuisine types.PNG
+e831d153c532bbbe9ff84c1e80fcf0b8 *./29julio/NASCOR/MongoDB/docker-compose.yml
+c73fa57163a7f8cb3811003a0ad53502 *./29julio/NASCOR/MongoDB/gestiona_productos.py
+a19651637bf6f67e75d3328ddde82341 *./29julio/NASCOR/MongoDB/imdb_by_genres.json
+ceaffac237c280a0236523a98ec813a0 *./29julio/NASCOR/MongoDB/italian, score less than 5.PNG
+23e3c1def6381c8a3c94a131f9bed2ef *./29julio/NASCOR/MongoDB/italian_leq_5.restaurants.json
+43f885baa97d53d3e1e225640dc67c1d *./29julio/NASCOR/MongoDB/Italian_restaurant_names.json
+77ef1ced26864713edca93404835f748 *./29julio/NASCOR/MongoDB/Italian_restaurant_names.PNG
+03ff7523beba2b819a7afa9e8e3e4ebe *./29julio/NASCOR/MongoDB/lt3.4_imdb_delete.PNG
+92b2f0b3377d0473fcf53699437ce197 *./29julio/NASCOR/MongoDB/nina_exfil.py
+afa311c218cafdddc0550c18196d99a3 *./29julio/NASCOR/MongoDB/nina_mongo.py
+7f97474ce140bee14acd34db6c665c14 *./29julio/NASCOR/MongoDB/num_mflix_comments by year.json
+d560dd40956d498ff5167f447ac10747 *./29julio/NASCOR/MongoDB/PericoPalotes.PNG
+34228cf53ae5537c85fde5cc4d49112f *./29julio/NASCOR/MongoDB/productos.json
+2c250b75db8f2e55e118ed5b2a6d8e4d *./29julio/NASCOR/MongoDB/score mayor 30.PNG
+1385d1caf9ed6419fa3ceeb9e424b6c0 *./29julio/NASCOR/MongoDB/year100.PNG
+21b86bad1d469d1884f9bda013bea22c *./29julio/NASCOR/Monitoring/docker-compose.yml
+9c459b14f4a946e7ef7fb309634a1ad9 *./29julio/NASCOR/Monitoring/Hudini.py
+bbcfe10d96522117ae0230949d5e660d *./29julio/NASCOR/Monitoring/InfluxDB_NINA-logger.py
+92b2f0b3377d0473fcf53699437ce197 *./29julio/NASCOR/Monitoring/nina_exfil.py
+afa311c218cafdddc0550c18196d99a3 *./29julio/NASCOR/Monitoring/nina_mongo.py
+34228cf53ae5537c85fde5cc4d49112f *./29julio/NASCOR/Monitoring/productos.json
+0e2c490ee901031b9c7950045c0440cb *./29julio/NASCOR/Monitoring/prometheus.yml
+32c896461279e04e194f5932d3ba0673 *./29julio/NASCOR/Monitoring/userlist_generated.txt
+fd9f3e24d8f252c577de2fa5cec3c46c *./29julio/NASCOR/Neo4j/clase1.txt
+7e06a7470d9b6d22f395e273a21ae386 *./29julio/NASCOR/Neo4j/clientes.json
+72b1c7180842035e040057d4cede7326 *./29julio/NASCOR/Neo4j/docker-compose.yml
+d3fc74a9d361c73c67c1d66b9918b2e8 *./29julio/NASCOR/Neo4j/insertar_en_neo4j.py
+84adf34fedf21d7ec4a1f49ddf13f828 *./29julio/NASCOR/Neo4j/mis_soluciones.txt
+756369ad9280d8d34e8ce4b52e827d02 *./29julio/NASCOR/Neo4j/movie_genre.png
+95a307924779af66a31c76f1ccd42c86 *./29julio/NASCOR/Neo4j/numero_compras.png
+c2115318a7fafb711f7979284f081aac *./29julio/NASCOR/Neo4j/productos.json
+67d3b612d526e0b43413f0820f4b04db *./29julio/NASCOR/Neo4j.zip
+215ca5f53602c4e884d76c7d5cf6cdc5 *./29julio/NASCOR/OneDrive_2025-07-09.zip
+09dc8e3d0c5d081bb33aeacb41dcf109 *./29julio/NASCOR/postman fail.JPG
+78250b980a01bb8b7b1729c4a06627af *./29julio/NASCOR/Practica API Login/comandos_docker.txt
+e3c9883790e024575e8d7fe4a8da4c0b *./29julio/NASCOR/Practica API Login/hosts
+bcbfbadc5a3562301b15557442da649b *./29julio/NASCOR/Practica API Login/index.php
+f688ae26e9cfa3ba6235477831d5122e *./29julio/NASCOR/Practica API Login/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./29julio/NASCOR/Practica API Login/login.php
+d429c1c6f9e00286589dd88d0550857e *./29julio/NASCOR/Practica API Login/login_inseguro.php
+3db938b11888361b4f18de1ba2d5785e *./29julio/NASCOR/Practica API Login/login_mas_inseguro.php
+45e8da395d33654ddcc955b4274243cf *./29julio/NASCOR/Practica API Login/test_database.php
+36a88b689908ab7c611bf3884209cc21 *./29julio/NASCOR/practicas/airbnb.csv
+3edc1c9d66bc06f94eb3b9659d207efc *./29julio/NASCOR/practicas/Guia_Practica_SSH_Putty_Kali-V1.0.docx
+34a0078e822a1444b8b1579036440b5e *./29julio/NASCOR/practicas/Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./29julio/NASCOR/practicas/Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./29julio/NASCOR/practicas/Practicas_SSL.docx
+16483e4cdacb8b8e40b8d093465976b8 *./29julio/NASCOR/practicas/Practicas_Tema1_Wireshark.docx
+72681707ee3190491af26d0cae7fb24b *./29julio/NASCOR/practicas/Practicas_Tema2_Wireshark_HTTP.docx
+605d55e91b77237662a7c7e1655d98d4 *./29julio/NASCOR/practicas/Practica_Libre_NoSQL.docx
+1add250eff2fd464bce0aaa6d127dd45 *./29julio/NASCOR/practicas/Practica_MongoDB.docx
+097f6b12b670a598f95431f3008db450 *./29julio/NASCOR/practicas/Practica_Neo4j-V1.0.docx
+42d41a4c77cb5ba6a79a752a9ce66b67 *./29julio/NASCOR/practicas/Practica_Prometheus_Grafana.docx
+750ebcbff23a4357fa4a2cbd51483dd4 *./29julio/NASCOR/practicas/ssl-ethereal-trace-1.pcap
+34a0078e822a1444b8b1579036440b5e *./29julio/NASCOR/Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./29julio/NASCOR/Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./29julio/NASCOR/Practicas_SSL.docx
+ad03406bded5ec7777c7b3d49b2eb320 *./29julio/NASCOR/proteccion de datos.pptx
+a92503af3e56158d9a259628789a5f9e *./29julio/NASCOR/proyecto/API_C/apache/cgi-bin/tu_api
+6b3845a8d8cb7fa16024bf7e4e0315c7 *./29julio/NASCOR/proyecto/API_C/apache/cgi-bin/tu_api.c
+a92503af3e56158d9a259628789a5f9e *./29julio/NASCOR/proyecto/API_C/apache/cgi-bin/tu_api.exe
+a58796f1205c59f1cff178c784cdd69a *./29julio/NASCOR/proyecto/API_C/apache/cgi.conf
+9635707720d95e3989174b954dad633c *./29julio/NASCOR/proyecto/API_C/apache/datos/BTCUSDT.json
+1d57dfeb9f4331982e90486accca9b55 *./29julio/NASCOR/proyecto/API_C/apache/Dockerfile
+3767ac7208f2f3a29176d1152a3c1470 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/assets/dosbox.conf
+a7f81a239ffa8e10580ac87273ef38a8 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/assets/img/overlay.png
+85a3bc0921fd9a6fad744eeabc162c8b *./29julio/NASCOR/proyecto/API_C/apache/doom-web/broken-sword.html
+8d96a0d7efeb7182a1d59faca3824783 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/broken-sword2.html
+758ea0f9ec5855b13098da0b4f68537b *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/emulators.js
+4a4e2c13f1390d9066f6afe2168cc5e2 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/emulators.js.map
+23afb9853a3ee1a451300af2533271e3 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/build.d.ts
+7397e536d619670385aa3c0cb2c78e02 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/dos/bundle/dos-bundle.d.ts
+eb5ac142b834c3b8f1ced6b17c8c746e *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/dos/dosbox/ts/direct.d.ts
+1851d473fd51a685009c12c1663cc71a *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/dos/dosbox/ts/worker.d.ts
+abecbb50dcd3b07e8983d64e531e76e9 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/emulators.d.ts
+0f632e9aaf09ff8fb96f1b2d71dfd4a1 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/http.d.ts
+152a556ee02e8686e724def33c1efb44 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/impl/ci-impl.d.ts
+e1cd9eb230bba9baa2cda5c662e4cdc6 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/impl/emulators-impl.d.ts
+1f13931cc9317021ae4529a0ed3e2f34 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/impl/modules.d.ts
+be5904edefe6094a821acfd60fc3dd7a *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/libzip/libzip.d.ts
+abdab26f5d2e50121b41932572e2cd54 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/messages-queue.d.ts
+71432f7a3f17682793315afc02de25fe *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/mini-lz4.d.ts
+d61549aadc2a58f10560efa81e21a979 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/protocol.d.ts
+1207de75ad8250f803247ce1e5f85233 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/sockdrive-store.d.ts
+00ca5397c8185677129e086c7b12397c *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/sockdrive.d.ts
+fcbb2c17d80ad5c4a719b29567e4f12b *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.js
+6efa213c1a328856b7f31585c27dcafc *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.js.symbols
+47d6e67bf5244dc774f894ad6754a1b4 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.wasm
+58c86d501b6888cb95f6a93f1be88f4b *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox.js
+0fa4eaf98cc814cab959047ff5e6f3cd *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox.js.symbols
+3ba888726a01fb10a31b9f49cc8e0e73 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox.wasm
+9cbfa8699745540145a445f5ff645a23 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wlibzip.js
+d0d98a5d7f8ef529d77d664127a66e23 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wlibzip.js.symbols
+e2a1e36dd492667998c4466205038984 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wlibzip.wasm
+c620c0d3ede48038aa64fc1091301df1 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/index.html
+5cbc26bcd5abd2429f4756f6c60cef72 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/js-dos-apiv3.js
+6243bf65d230095259331ca3b08db428 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/js-dos.css
+1bf6aa25cbed0fa4f744d1898f1dd042 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/js-dos.js
+129523d11cbb7ae5f7143a97114809a8 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/components/js-dos.js.map
+7e6e0bed83d83cda320fb1d8f3936796 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/duke-3d.html
+c9d6ebe55e4f3bfaf5698b91984b0cba *./29julio/NASCOR/proyecto/API_C/apache/doom-web/index.html
+6243bf65d230095259331ca3b08db428 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/js-dos.css
+1bf6aa25cbed0fa4f744d1898f1dd042 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/js-dos.js
+129523d11cbb7ae5f7143a97114809a8 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/js-dos.js.map
+ef32f5f90c1fb181879ccd75d228cf27 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/README.md
+07dbf395cd757d3d58340d5c60ec9986 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/roms/duke-3d.zip
+46804cda45b7d7697de3e7c36bc1317d *./29julio/NASCOR/proyecto/API_C/apache/doom-web/roms/ultimate-doom.zip
+2be9608febbc78717dac910d124397aa *./29julio/NASCOR/proyecto/API_C/apache/doom-web/script.js
+86df90caf4c0b66fad63c39008f89b25 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/style.css
+0e5801b6995b7b1469990f5907bfa378 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/styles/button.css
+47c74a4b41f286e9816fa7a056eadfe0 *./29julio/NASCOR/proyecto/API_C/apache/doom-web/SWORD.html
+9cea848d3c584aed2f113e7396f161d8 *./29julio/NASCOR/proyecto/docker-compose.yml
+b11f81124e3143f39dee5095f5537b90 *./29julio/NASCOR/proyecto/Dockerfile
+933222b19ff3e7ea5f65517ea1f7d57e *./29julio/NASCOR/proyecto/helo
+d41d8cd98f00b204e9800998ecf8427e *./29julio/NASCOR/proyecto/init.sql
+ef2c206817f42111475c30f7e3da67a2 *./29julio/NASCOR/proyecto/sample_sql.sql
+d80b3e514c75b9a968840886e2c270ed *./29julio/NASCOR/proyecto/w3schools.sql
+44c5c0c2f8466059ea430bb1ccefa467 *./29julio/NASCOR/proyecto/www/async_brutus.py
+776c7bed06760e21e886f63d20c5df8e *./29julio/NASCOR/proyecto/www/async_user.py
+4c267478e2ee10b9045b486e270cee9b *./29julio/NASCOR/proyecto/www/brute_force.py
+dafcc890b9c7e55c72118d0c9b038972 *./29julio/NASCOR/proyecto/www/brutus.py
+f47adbd09e6bb2bd223a18065476bc85 *./29julio/NASCOR/proyecto/www/brutus2.py
+d4d90b7d13f52ca7b713c507be04b007 *./29julio/NASCOR/proyecto/www/brutus3.py
+c498fa6b8253e99f4a53883c9c98bde6 *./29julio/NASCOR/proyecto/www/brutus4.py
+d4770cb3ce5e2b16ccd59b4b0ef88100 *./29julio/NASCOR/proyecto/www/brutus_fast.py
+95751317766f9afce4db15b071cc63da *./29julio/NASCOR/proyecto/www/brutus_hashcat.py
+70cfaa43b5c6a2ad61b883d8a21393fd *./29julio/NASCOR/proyecto/www/brutus_md5.py
+8504ef0e773098e1a8d678c30e08da4c *./29julio/NASCOR/proyecto/www/brutus_md5_2.py
+78250b980a01bb8b7b1729c4a06627af *./29julio/NASCOR/proyecto/www/comandos_docker.txt
+e3c9883790e024575e8d7fe4a8da4c0b *./29julio/NASCOR/proyecto/www/hosts
+b95bebbaacc5df34dcb2612ba70ab4f0 *./29julio/NASCOR/proyecto/www/index.html
+1af87c6f5268a433ef4af17f0ca30fad *./29julio/NASCOR/proyecto/www/index.php.bak
+bcbfbadc5a3562301b15557442da649b *./29julio/NASCOR/proyecto/www/index2.php
+f688ae26e9cfa3ba6235477831d5122e *./29julio/NASCOR/proyecto/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./29julio/NASCOR/proyecto/www/login.php
+34a418554d7340d081c80a7187ef756e *./29julio/NASCOR/proyecto/www/login_inseguro.php
+c03d103f17d62b2f1810d5f0e927de13 *./29julio/NASCOR/proyecto/www/login_mas_inseguro.php
+3951e521a104725776e0803461f46e26 *./29julio/NASCOR/proyecto/www/multi_brutus.py
+820bbab4e43d9be6c06591f3efabe060 *./29julio/NASCOR/proyecto/www/target.hash
+45e8da395d33654ddcc955b4274243cf *./29julio/NASCOR/proyecto/www/test_database.php
+32c896461279e04e194f5932d3ba0673 *./29julio/NASCOR/proyecto/www/userlist_generated.txt
+93e8c4d23a6dbf9092bdab3bf82c6a69 *./29julio/NASCOR/README.md
+2ef4a5ed9e6d52db97e6e32eb8de8e7f *./29julio/NASCOR/selfsigned.crt
+49aff2cb7fd6a7d203c8951781655661 *./29julio/NASCOR/selfsigned.key
+c2358ce7a59db3c446e2d87736617cf8 *./29julio/NASCOR/semsibñe7.pdf
+7714d68002152b88dd710b921651a280 *./29julio/NASCOR/software/lista_archivos.txt
+750ebcbff23a4357fa4a2cbd51483dd4 *./29julio/NASCOR/ssl-ethereal-trace-1.pcap
+cfa6a40a210e016717fde041aad3272e *./29julio/NASCOR/XMRIG.txt
+b234ea5fb7dc1f6cf8a6f6c02e8d3602 *./29julio/NASCOR/XMRIG_fast.txt
+18db7cd4e1f7f676b3908b3ed315e4be *./29julio/NASCOR/XMRIG_SLOW.txt
+fe0caddd22d9cb8ddf8329d777dd3778 *./29julio/NASCOR/XMRIG_waitENG.txt
+39e7a7c8c468efec47f7d034a175d2fa *./29julio/NASCOR/XMRIG_waitESP.txt
+06f50c15021fb8f8b466520b675f53ba *./29julio/NASCOR/XMRIG_waitESPtxt.txt
+a949922d90d2965c0497595036b5860e *./3 de julio.JPG
+4f87de2e2022870523a60a667482fe3f *./AutiTask-v2.txt
+71a2826569b50025f535d5883a5d1d11 *./AutiTask-v3.txt
+78920d9136b7cf0bc2064a701c30a857 *./AutiTask-v4.txt
+afd1c5f5469953b68be3e4dacc86de09 *./AutiTask-v5.txt
+76bf3e0aafadf05779391192b578ac30 *./AutiTask-v6.txt
+27f31d4c8da82accc591a54ef75d13f0 *./AutiTask-v7.txt
+6cf0f850b79dc2ef01444b989523230e *./AutiTask-v8.txt
+13dcfb0dbb708f39bdc59564be398db4 *./AutiTask.txt
+c069427cb2a72cd8b7d8c6208492ab5e *./badUSB mapper.txt
+e20aaa5ed3a510058e81f6ee158d3350 *./Bases de Datos/sample_sql.sql
+d80b3e514c75b9a968840886e2c270ed *./Bases de Datos/w3schools.sql
+4f87de2e2022870523a60a667482fe3f *./BUscript/AutiTask-v2.txt
+71a2826569b50025f535d5883a5d1d11 *./BUscript/AutiTask-v3.txt
+78920d9136b7cf0bc2064a701c30a857 *./BUscript/AutiTask-v4.txt
+afd1c5f5469953b68be3e4dacc86de09 *./BUscript/AutiTask-v5.txt
+76bf3e0aafadf05779391192b578ac30 *./BUscript/AutiTask-v6.txt
+27f31d4c8da82accc591a54ef75d13f0 *./BUscript/AutiTask-v7.txt
+6cf0f850b79dc2ef01444b989523230e *./BUscript/AutiTask-v8.txt
+13dcfb0dbb708f39bdc59564be398db4 *./BUscript/AutiTask.txt
+e454dc768841edb24ae91042e497f078 *./BUscript/XMR2.txt
+f7a4a2f33a38d23aa241b846939f8c48 *./BUscript/XMR2a.txt
+68505187348864fa53230db976035039 *./BUscript/XMR2b.txt
+8a3247d1468eb0aa8f5cdbed0e9bbcbb *./BUscript/XMR2c.txt
+2c31234f35f88dd2af5ebfb8935b1140 *./BUscript/XMR2d.txt
+c9950c2c99ca87390d2209ff289d27e4 *./BUscript/XMR2e.txt
+e7a9a64239d6ac24e460fceb1048de70 *./BUscript/XMR2f.txt
+0f0fa890749a69ecaec4f0352061baf1 *./BUscript/XMR2g.txt
+cfa6a40a210e016717fde041aad3272e *./BUscript/XMRIG.txt
+b234ea5fb7dc1f6cf8a6f6c02e8d3602 *./BUscript/XMRIG_fast.txt
+7c02536eb5bb81bd25c140909b0afe6d *./comandos_sqlmap.txt
+3edc1c9d66bc06f94eb3b9659d207efc *./Docs/anteriores/Guia_Practica_SSH_Putty_Kali-V1.0.docx
+34a0078e822a1444b8b1579036440b5e *./Docs/anteriores/Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./Docs/anteriores/Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./Docs/anteriores/Practicas_SSL.docx
+46465d5f24db6ab6497dc347b34f6f6a *./Docs/Practica_ELK-V1.0 (1).docx
+4f8558c8f194d60c0d30e30b3fed982b *./Docs/Practica_Hadoop-V0.1.docx
+e4a6e753733c67392689b30703bc2a8e *./Docs/Practica_Kafka-Twitter-V2.0.docx
+e545ad972c4802ae4f0942a89233a9ab *./Docs/Practica_MiniEcommerce-V1.0.docx
+1f4a697bbfae8bba8eb97362c2661bc5 *./Docs/Practica_MongoDB-V1.1.docx
+097f6b12b670a598f95431f3008db450 *./Docs/Practica_Neo4j-V1.0 (1).docx
+eeb086a7854dae6cdce64f49eb87d64c *./ejecutar_archivos.bat
+b5ba88919c0940060bfc7e3dcd0d6c98 *./ELK/bulk_quijote.json
+4ccc34b4d3385aec38266faf4008e1da *./ELK/buscar_productos.py
+e2b3fd96a1b86ea0b3494f562607461b *./ELK/conversion_json.py
+182c09c799e13603dec2392639947b1b *./ELK/docker-compose.yml
+de5bde1d922590b28bc3b18b61b9ade0 *./ELK/productos.json
+3edc1c9d66bc06f94eb3b9659d207efc *./Guia_Practica_SSH_Putty_Kali-V1.0.docx
+b02274310829b4f8cb93a94fd86d87e4 *./Hadoop/base/Dockerfile
+aad7c3c0fc7a385e06cf46ea4954e356 *./Hadoop/base/entrypoint.sh
+ddf4b658fd4200c26c02f1d81236b2d2 *./Hadoop/datanode/Dockerfile
+de8b8a3165a268365c67124dc1695c9e *./Hadoop/datanode/run.sh
+52cbd63c646ce8af5b8df2d421d3d354 *./Hadoop/docker-compose-v3.yml
+ba848b3fa662d781561efe9622fa21bb *./Hadoop/docker-compose.yml
+f52ab3148e5398f00846e21ea4eeae3b *./Hadoop/hadoop.env
+744d81761ffd33c0639b81dea7cc5a7a *./Hadoop/historyserver/Dockerfile
+76b000896bd398938202b0b566c408c7 *./Hadoop/historyserver/run.sh
+0237491606933d9030779181f90b97f6 *./Hadoop/input/basico1.txt
+91252813665d2966d4375ddaeec06725 *./Hadoop/input/pg2701.txt
+1e6d3c941fe4233efbbd5820de939460 *./Hadoop/input/pg84.txt
+918092899266ca354431c30122ebb0f0 *./Hadoop/jar/hadoop-mapreduce-examples-2.7.1-sources.jar
+a46e3aa0154ceb8dda4336b97cce4440 *./Hadoop/jar/wget.exe
+93dbb3fe2dbd628ddece323289c57203 *./Hadoop/Makefile
+4e18e069ab5ee2ff54c090ec1fbcdbd8 *./Hadoop/namenode/Dockerfile
+c2729367c120b76f50cb7f18ac4b6366 *./Hadoop/namenode/run.sh
+2ae0229be332b5caddc514ecc18f4845 *./Hadoop/nginx/bde-hadoop.css
+2658d31bc7c2b6b7d26bebdd8d7f2342 *./Hadoop/nginx/default.conf
+ac61645c166e249eec40abb78dabfe56 *./Hadoop/nginx/Dockerfile
+468a0a39c248189156dc1589aab41aec *./Hadoop/nginx/materialize.min.css
+f2b0ab397af6241b5cdb81ae5398aa05 *./Hadoop/nodemanager/Dockerfile
+0ce8f51998173fdc60553949fe7e154e *./Hadoop/nodemanager/run.sh
+22d3dd6b4d784c5b12991ba2f26d1298 *./Hadoop/python/mapper.py
+14e3d0d4ca53a06800b316312103c53a *./Hadoop/python/reducer.py
+43b962ed7886d890432291d6ca6cf43e *./Hadoop/README.md
+60c2efab91e7c7ce19a4f5a176be46f7 *./Hadoop/resourcemanager/Dockerfile
+54d9a451500570a99cb767be003ad964 *./Hadoop/resourcemanager/run.sh
+b80d382219ca4e28207636915e8b7f70 *./Hadoop/resultado/resultado.txt
+88e37756ceb166e34e848442e79ed32f *./Hadoop/submit/Dockerfile
+2275d991ecbc6741bd38ad57bd0fcbfd *./Hadoop/submit/run.sh
+d08018b6926c09aecf37c409f6297451 *./Hadoop/submit/WordCount.jar
+e298c064a1f8130b9915afc77f08268c *./InstALL.bat
+91df1b4f1b4a982d1a5f949f810e0b61 *./Install_DockerWin.txt
+18046fb3934c4d16a8c903f33d577777 *./Kafka/check_env.py
+11f87621c57d99bcdcb200acfa5ac25b *./Kafka/consumer.py
+61d0b76de63e0443ec4d28c4959136b1 *./Kafka/create-kafka-topic.sh
+7c15c8b7d767779313f108df9fcd34b3 *./Kafka/docker-compose.yml
+e25b3677f658724f7613caa5b6b35ad0 *./Kafka/Dockerfile
+c90649c333f9928111fb8e542642e043 *./Kafka/main.py
+0ef036fb8f7aa2c4ebe69681cb7508bb *./Kafka/producer.py
+c754c992e4da52d9f86d9c8598cc8029 *./Kafka/requirements.txt.txt
+92087eb23735ea8a377a844edf4b4228 *./Kafka.zip
+ef47aa9c8f32839aac3d9e928e326245 *./KbLo.txt
+d52fb87b06066f5e418d351e9ec44611 *./KbLo2.txt
+d5a742a8e4442b72a21a9e113170e680 *./KeybLayout.txt
+d41d8cd98f00b204e9800998ecf8427e *./lista_archivos.txt
+a55328d42101c736dac88d57a5f28be7 *./Login SSL/login-ssl/apache/default-ssl.conf
+26a369144dd2d3d721bc5ddad0c4edd6 *./Login SSL/login-ssl/docker-compose.yml
+c949c931cfea89fef9d4e06735ef8a7c *./Login SSL/login-ssl/ssl/selfsigned.crt
+80bf229d3d0247732105a3b39fabe610 *./Login SSL/login-ssl/ssl/selfsigned.key
+bcbfbadc5a3562301b15557442da649b *./Login SSL/login-ssl/www/index.php
+f688ae26e9cfa3ba6235477831d5122e *./Login SSL/login-ssl/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./Login SSL/login-ssl/www/login.php
+26fbb794da55dd76363ad2bcc9736be4 *./Login SSL/login-ssl/zap_root_ca.cer
+a55328d42101c736dac88d57a5f28be7 *./login-ssl/apache/default-ssl.conf
+e0b9dd1259e7b9b33cc1a47353520e1b *./login-ssl/Captura 1.png
+9355b31a2e0c68740cab82101cc8873d *./login-ssl/Captura 2.png
+26a369144dd2d3d721bc5ddad0c4edd6 *./login-ssl/docker-compose.yml
+c949c931cfea89fef9d4e06735ef8a7c *./login-ssl/ssl/selfsigned.crt
+c949c931cfea89fef9d4e06735ef8a7c *./login-ssl/ssl/selfsigned.crt.bak
+80bf229d3d0247732105a3b39fabe610 *./login-ssl/ssl/selfsigned.key
+80bf229d3d0247732105a3b39fabe610 *./login-ssl/ssl/selfsigned.key.bak
+bcbfbadc5a3562301b15557442da649b *./login-ssl/www/index.php
+f688ae26e9cfa3ba6235477831d5122e *./login-ssl/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./login-ssl/www/login.php
+26fbb794da55dd76363ad2bcc9736be4 *./login-ssl/zap_root_ca.cer
+6a673833cd5b62e460394d8405d1dc68 *./login-ssl/zap_root_ca_NascorPC.cer
+92dd926f095d68504780d8770e71a840 *./MongoDB/1.png
+93de87d3f61cf731e887b21a835e6ce6 *./MongoDB/16.PNG
+39c3e7de0d94d8ce5501d9d7da193fc9 *./MongoDB/17.PNG
+9d1e81facb0db491857862e27d234999 *./MongoDB/2.png
+ac22ba3b461c0e1ccee409a3610bee55 *./MongoDB/20.PNG
+dcfcce709bcad943b2a4239b325b8c42 *./MongoDB/21.PNG
+1f3e4202bb47b396e3797a23311f6d53 *./MongoDB/22.PNG
+4ae1a8acd084cea06027f8ffb91e51f7 *./MongoDB/9.json
+f32019d78a5ca6bd7cb8cf81fb3c95db *./MongoDB/9.PNG
+d9f077c72c1cc28d6e989aa354924bd3 *./MongoDB/Action.PNG
+5830a45fc7242ccf95303577368014ca *./MongoDB/add_comment_movies.PNG
+5da23fd007d8db408ba362065646e6ae *./MongoDB/and((or (cuisine Italian, mexican) ) borough Manhattan).PNG
+16caaad101985ad9a6ac1ec08c14bb86 *./MongoDB/avg_runtime.PNG
+a63ec2d06317e61062aff70032a63c18 *./MongoDB/Captura de pantalla 2025-07-14 111232.png
+1d875302b63cfa798b39d8583f3de6a7 *./MongoDB/Civilization_1985.PNG
+e3fbc6b153ebdfcecadfe10b32d26c0a *./MongoDB/count_by_type.json
+0d8758f0f0073024789186e6f2f7913e *./MongoDB/count_by_type.png
+25c9ae8618700f90ab9abbe47522c250 *./MongoDB/count_by_type2.png
+6a2937fa38e5b036ab7d49cff97adfca *./MongoDB/cuisine_types.json
+a21e0bc68bb6fae127e0a86ed88a1a7b *./MongoDB/different cuisine types.PNG
+e831d153c532bbbe9ff84c1e80fcf0b8 *./MongoDB/docker-compose.yml
+c73fa57163a7f8cb3811003a0ad53502 *./MongoDB/gestiona_productos.py
+a19651637bf6f67e75d3328ddde82341 *./MongoDB/imdb_by_genres.json
+ceaffac237c280a0236523a98ec813a0 *./MongoDB/italian, score less than 5.PNG
+23e3c1def6381c8a3c94a131f9bed2ef *./MongoDB/italian_leq_5.restaurants.json
+43f885baa97d53d3e1e225640dc67c1d *./MongoDB/Italian_restaurant_names.json
+77ef1ced26864713edca93404835f748 *./MongoDB/Italian_restaurant_names.PNG
+03ff7523beba2b819a7afa9e8e3e4ebe *./MongoDB/lt3.4_imdb_delete.PNG
+92b2f0b3377d0473fcf53699437ce197 *./MongoDB/nina_exfil.py
+afa311c218cafdddc0550c18196d99a3 *./MongoDB/nina_mongo.py
+7f97474ce140bee14acd34db6c665c14 *./MongoDB/num_mflix_comments by year.json
+d560dd40956d498ff5167f447ac10747 *./MongoDB/PericoPalotes.PNG
+34228cf53ae5537c85fde5cc4d49112f *./MongoDB/productos.json
+2c250b75db8f2e55e118ed5b2a6d8e4d *./MongoDB/score mayor 30.PNG
+1385d1caf9ed6419fa3ceeb9e424b6c0 *./MongoDB/year100.PNG
+21b86bad1d469d1884f9bda013bea22c *./Monitoring/docker-compose.yml
+9c459b14f4a946e7ef7fb309634a1ad9 *./Monitoring/Hudini.py
+bbcfe10d96522117ae0230949d5e660d *./Monitoring/InfluxDB_NINA-logger.py
+92b2f0b3377d0473fcf53699437ce197 *./Monitoring/nina_exfil.py
+afa311c218cafdddc0550c18196d99a3 *./Monitoring/nina_mongo.py
+34228cf53ae5537c85fde5cc4d49112f *./Monitoring/productos.json
+0e2c490ee901031b9c7950045c0440cb *./Monitoring/prometheus.yml
+32c896461279e04e194f5932d3ba0673 *./Monitoring/userlist_generated.txt
+808524618962b0715a3022ff3ea47d83 *./NASCOR/.git/config
+a0a7c3fff21f2aea3cfa1d0316dd816c *./NASCOR/.git/description
+cf7dd3ce51958c5f13fece957cc417fb *./NASCOR/.git/HEAD
+ce562e08d8098926a3862fc6e7905199 *./NASCOR/.git/hooks/applypatch-msg.sample
+579a3c1e12a1e74a98169175fb913012 *./NASCOR/.git/hooks/commit-msg.sample
+a0b2633a2c8e97501610bd3f73da66fc *./NASCOR/.git/hooks/fsmonitor-watchman.sample
+2b7ea5cee3c49ff53d41e00785eb974c *./NASCOR/.git/hooks/post-update.sample
+054f9ffb8bfe04a599751cc757226dda *./NASCOR/.git/hooks/pre-applypatch.sample
+5029bfab85b1c39281aa9697379ea444 *./NASCOR/.git/hooks/pre-commit.sample
+39cb268e2a85d436b9eb6f47614c3cbc *./NASCOR/.git/hooks/pre-merge-commit.sample
+2c642152299a94e05ea26eae11993b13 *./NASCOR/.git/hooks/pre-push.sample
+56e45f2bcbc8226d2b4200f7c46371bf *./NASCOR/.git/hooks/pre-rebase.sample
+2ad18ec82c20af7b5926ed9cea6aeedd *./NASCOR/.git/hooks/pre-receive.sample
+2b5c047bdb474555e1787db32b2d2fc5 *./NASCOR/.git/hooks/prepare-commit-msg.sample
+c7ab00c7784efeadad3ae9b228d4b4db *./NASCOR/.git/hooks/push-to-checkout.sample
+4d67df3a8d5c98cb8565c07e42be0b04 *./NASCOR/.git/hooks/sendemail-validate.sample
+647ae13c682f7827c22f5fc08a03674e *./NASCOR/.git/hooks/update.sample
+9fc61a62d99b4bf5c3983fdad96c6d42 *./NASCOR/.git/index
+036208b4a1ab4a235d75c181e685e5a3 *./NASCOR/.git/info/exclude
+a7b6e142aa371faeed9924ac71477816 *./NASCOR/.git/logs/HEAD
+a7b6e142aa371faeed9924ac71477816 *./NASCOR/.git/logs/refs/heads/main
+a7b6e142aa371faeed9924ac71477816 *./NASCOR/.git/logs/refs/remotes/origin/HEAD
+6c3826b2351b6900187a2ffdbca09c23 *./NASCOR/.git/objects/pack/pack-6522edc1c4f404d741dcb24c79e03da1f6cbbf1e.idx
+19f39adcaaf43893d33c923b46a4d02b *./NASCOR/.git/objects/pack/pack-6522edc1c4f404d741dcb24c79e03da1f6cbbf1e.pack
+0cc8a5481ef5af4dcfd3671aa6b6e529 *./NASCOR/.git/objects/pack/pack-6522edc1c4f404d741dcb24c79e03da1f6cbbf1e.rev
+92a654c6404849dbf35f4d3568753964 *./NASCOR/.git/packed-refs
+17c97eb22c049cbcb07a8db014c28ba4 *./NASCOR/.git/refs/heads/main
+98b16e0b650190870f1b40bc8f4aec4e *./NASCOR/.git/refs/remotes/origin/HEAD
+a949922d90d2965c0497595036b5860e *./NASCOR/3 de julio.JPG
+4f87de2e2022870523a60a667482fe3f *./NASCOR/AutiTask-v2.txt
+71a2826569b50025f535d5883a5d1d11 *./NASCOR/AutiTask-v3.txt
+78920d9136b7cf0bc2064a701c30a857 *./NASCOR/AutiTask-v4.txt
+afd1c5f5469953b68be3e4dacc86de09 *./NASCOR/AutiTask-v5.txt
+76bf3e0aafadf05779391192b578ac30 *./NASCOR/AutiTask-v6.txt
+27f31d4c8da82accc591a54ef75d13f0 *./NASCOR/AutiTask-v7.txt
+6cf0f850b79dc2ef01444b989523230e *./NASCOR/AutiTask-v8.txt
+13dcfb0dbb708f39bdc59564be398db4 *./NASCOR/AutiTask.txt
+c069427cb2a72cd8b7d8c6208492ab5e *./NASCOR/badUSB mapper.txt
+e20aaa5ed3a510058e81f6ee158d3350 *./NASCOR/Bases de Datos/sample_sql.sql
+d80b3e514c75b9a968840886e2c270ed *./NASCOR/Bases de Datos/w3schools.sql
+4f87de2e2022870523a60a667482fe3f *./NASCOR/BUscript/AutiTask-v2.txt
+71a2826569b50025f535d5883a5d1d11 *./NASCOR/BUscript/AutiTask-v3.txt
+78920d9136b7cf0bc2064a701c30a857 *./NASCOR/BUscript/AutiTask-v4.txt
+afd1c5f5469953b68be3e4dacc86de09 *./NASCOR/BUscript/AutiTask-v5.txt
+76bf3e0aafadf05779391192b578ac30 *./NASCOR/BUscript/AutiTask-v6.txt
+27f31d4c8da82accc591a54ef75d13f0 *./NASCOR/BUscript/AutiTask-v7.txt
+6cf0f850b79dc2ef01444b989523230e *./NASCOR/BUscript/AutiTask-v8.txt
+13dcfb0dbb708f39bdc59564be398db4 *./NASCOR/BUscript/AutiTask.txt
+e454dc768841edb24ae91042e497f078 *./NASCOR/BUscript/XMR2.txt
+f7a4a2f33a38d23aa241b846939f8c48 *./NASCOR/BUscript/XMR2a.txt
+68505187348864fa53230db976035039 *./NASCOR/BUscript/XMR2b.txt
+8a3247d1468eb0aa8f5cdbed0e9bbcbb *./NASCOR/BUscript/XMR2c.txt
+2c31234f35f88dd2af5ebfb8935b1140 *./NASCOR/BUscript/XMR2d.txt
+c9950c2c99ca87390d2209ff289d27e4 *./NASCOR/BUscript/XMR2e.txt
+e7a9a64239d6ac24e460fceb1048de70 *./NASCOR/BUscript/XMR2f.txt
+0f0fa890749a69ecaec4f0352061baf1 *./NASCOR/BUscript/XMR2g.txt
+cfa6a40a210e016717fde041aad3272e *./NASCOR/BUscript/XMRIG.txt
+b234ea5fb7dc1f6cf8a6f6c02e8d3602 *./NASCOR/BUscript/XMRIG_fast.txt
+7c02536eb5bb81bd25c140909b0afe6d *./NASCOR/comandos_sqlmap.txt
+3edc1c9d66bc06f94eb3b9659d207efc *./NASCOR/Docs/anteriores/Guia_Practica_SSH_Putty_Kali-V1.0.docx
+34a0078e822a1444b8b1579036440b5e *./NASCOR/Docs/anteriores/Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./NASCOR/Docs/anteriores/Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./NASCOR/Docs/anteriores/Practicas_SSL.docx
+46465d5f24db6ab6497dc347b34f6f6a *./NASCOR/Docs/Practica_ELK-V1.0 (1).docx
+4f8558c8f194d60c0d30e30b3fed982b *./NASCOR/Docs/Practica_Hadoop-V0.1.docx
+e4a6e753733c67392689b30703bc2a8e *./NASCOR/Docs/Practica_Kafka-Twitter-V2.0.docx
+e545ad972c4802ae4f0942a89233a9ab *./NASCOR/Docs/Practica_MiniEcommerce-V1.0.docx
+1f4a697bbfae8bba8eb97362c2661bc5 *./NASCOR/Docs/Practica_MongoDB-V1.1.docx
+097f6b12b670a598f95431f3008db450 *./NASCOR/Docs/Practica_Neo4j-V1.0 (1).docx
+eeb086a7854dae6cdce64f49eb87d64c *./NASCOR/ejecutar_archivos.bat
+b5ba88919c0940060bfc7e3dcd0d6c98 *./NASCOR/ELK/bulk_quijote.json
+4ccc34b4d3385aec38266faf4008e1da *./NASCOR/ELK/buscar_productos.py
+e2b3fd96a1b86ea0b3494f562607461b *./NASCOR/ELK/conversion_json.py
+182c09c799e13603dec2392639947b1b *./NASCOR/ELK/docker-compose.yml
+de5bde1d922590b28bc3b18b61b9ade0 *./NASCOR/ELK/productos.json
+3edc1c9d66bc06f94eb3b9659d207efc *./NASCOR/Guia_Practica_SSH_Putty_Kali-V1.0.docx
+b02274310829b4f8cb93a94fd86d87e4 *./NASCOR/Hadoop/base/Dockerfile
+aad7c3c0fc7a385e06cf46ea4954e356 *./NASCOR/Hadoop/base/entrypoint.sh
+ddf4b658fd4200c26c02f1d81236b2d2 *./NASCOR/Hadoop/datanode/Dockerfile
+de8b8a3165a268365c67124dc1695c9e *./NASCOR/Hadoop/datanode/run.sh
+52cbd63c646ce8af5b8df2d421d3d354 *./NASCOR/Hadoop/docker-compose-v3.yml
+ba848b3fa662d781561efe9622fa21bb *./NASCOR/Hadoop/docker-compose.yml
+f52ab3148e5398f00846e21ea4eeae3b *./NASCOR/Hadoop/hadoop.env
+744d81761ffd33c0639b81dea7cc5a7a *./NASCOR/Hadoop/historyserver/Dockerfile
+76b000896bd398938202b0b566c408c7 *./NASCOR/Hadoop/historyserver/run.sh
+0237491606933d9030779181f90b97f6 *./NASCOR/Hadoop/input/basico1.txt
+91252813665d2966d4375ddaeec06725 *./NASCOR/Hadoop/input/pg2701.txt
+1e6d3c941fe4233efbbd5820de939460 *./NASCOR/Hadoop/input/pg84.txt
+918092899266ca354431c30122ebb0f0 *./NASCOR/Hadoop/jar/hadoop-mapreduce-examples-2.7.1-sources.jar
+a46e3aa0154ceb8dda4336b97cce4440 *./NASCOR/Hadoop/jar/wget.exe
+93dbb3fe2dbd628ddece323289c57203 *./NASCOR/Hadoop/Makefile
+4e18e069ab5ee2ff54c090ec1fbcdbd8 *./NASCOR/Hadoop/namenode/Dockerfile
+c2729367c120b76f50cb7f18ac4b6366 *./NASCOR/Hadoop/namenode/run.sh
+2ae0229be332b5caddc514ecc18f4845 *./NASCOR/Hadoop/nginx/bde-hadoop.css
+2658d31bc7c2b6b7d26bebdd8d7f2342 *./NASCOR/Hadoop/nginx/default.conf
+ac61645c166e249eec40abb78dabfe56 *./NASCOR/Hadoop/nginx/Dockerfile
+468a0a39c248189156dc1589aab41aec *./NASCOR/Hadoop/nginx/materialize.min.css
+f2b0ab397af6241b5cdb81ae5398aa05 *./NASCOR/Hadoop/nodemanager/Dockerfile
+0ce8f51998173fdc60553949fe7e154e *./NASCOR/Hadoop/nodemanager/run.sh
+22d3dd6b4d784c5b12991ba2f26d1298 *./NASCOR/Hadoop/python/mapper.py
+14e3d0d4ca53a06800b316312103c53a *./NASCOR/Hadoop/python/reducer.py
+43b962ed7886d890432291d6ca6cf43e *./NASCOR/Hadoop/README.md
+60c2efab91e7c7ce19a4f5a176be46f7 *./NASCOR/Hadoop/resourcemanager/Dockerfile
+54d9a451500570a99cb767be003ad964 *./NASCOR/Hadoop/resourcemanager/run.sh
+b80d382219ca4e28207636915e8b7f70 *./NASCOR/Hadoop/resultado/resultado.txt
+88e37756ceb166e34e848442e79ed32f *./NASCOR/Hadoop/submit/Dockerfile
+2275d991ecbc6741bd38ad57bd0fcbfd *./NASCOR/Hadoop/submit/run.sh
+d08018b6926c09aecf37c409f6297451 *./NASCOR/Hadoop/submit/WordCount.jar
+e298c064a1f8130b9915afc77f08268c *./NASCOR/InstALL.bat
+91df1b4f1b4a982d1a5f949f810e0b61 *./NASCOR/Install_DockerWin.txt
+18046fb3934c4d16a8c903f33d577777 *./NASCOR/Kafka/check_env.py
+11f87621c57d99bcdcb200acfa5ac25b *./NASCOR/Kafka/consumer.py
+61d0b76de63e0443ec4d28c4959136b1 *./NASCOR/Kafka/create-kafka-topic.sh
+7c15c8b7d767779313f108df9fcd34b3 *./NASCOR/Kafka/docker-compose.yml
+e25b3677f658724f7613caa5b6b35ad0 *./NASCOR/Kafka/Dockerfile
+c90649c333f9928111fb8e542642e043 *./NASCOR/Kafka/main.py
+0ef036fb8f7aa2c4ebe69681cb7508bb *./NASCOR/Kafka/producer.py
+c754c992e4da52d9f86d9c8598cc8029 *./NASCOR/Kafka/requirements.txt.txt
+92087eb23735ea8a377a844edf4b4228 *./NASCOR/Kafka.zip
+ef47aa9c8f32839aac3d9e928e326245 *./NASCOR/KbLo.txt
+d52fb87b06066f5e418d351e9ec44611 *./NASCOR/KbLo2.txt
+d5a742a8e4442b72a21a9e113170e680 *./NASCOR/KeybLayout.txt
+d41d8cd98f00b204e9800998ecf8427e *./NASCOR/lista_archivos.txt
+a55328d42101c736dac88d57a5f28be7 *./NASCOR/Login SSL/login-ssl/apache/default-ssl.conf
+26a369144dd2d3d721bc5ddad0c4edd6 *./NASCOR/Login SSL/login-ssl/docker-compose.yml
+c949c931cfea89fef9d4e06735ef8a7c *./NASCOR/Login SSL/login-ssl/ssl/selfsigned.crt
+80bf229d3d0247732105a3b39fabe610 *./NASCOR/Login SSL/login-ssl/ssl/selfsigned.key
+bcbfbadc5a3562301b15557442da649b *./NASCOR/Login SSL/login-ssl/www/index.php
+f688ae26e9cfa3ba6235477831d5122e *./NASCOR/Login SSL/login-ssl/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./NASCOR/Login SSL/login-ssl/www/login.php
+26fbb794da55dd76363ad2bcc9736be4 *./NASCOR/Login SSL/login-ssl/zap_root_ca.cer
+a55328d42101c736dac88d57a5f28be7 *./NASCOR/login-ssl/apache/default-ssl.conf
+e0b9dd1259e7b9b33cc1a47353520e1b *./NASCOR/login-ssl/Captura 1.png
+9355b31a2e0c68740cab82101cc8873d *./NASCOR/login-ssl/Captura 2.png
+26a369144dd2d3d721bc5ddad0c4edd6 *./NASCOR/login-ssl/docker-compose.yml
+c949c931cfea89fef9d4e06735ef8a7c *./NASCOR/login-ssl/ssl/selfsigned.crt
+c949c931cfea89fef9d4e06735ef8a7c *./NASCOR/login-ssl/ssl/selfsigned.crt.bak
+80bf229d3d0247732105a3b39fabe610 *./NASCOR/login-ssl/ssl/selfsigned.key
+80bf229d3d0247732105a3b39fabe610 *./NASCOR/login-ssl/ssl/selfsigned.key.bak
+bcbfbadc5a3562301b15557442da649b *./NASCOR/login-ssl/www/index.php
+f688ae26e9cfa3ba6235477831d5122e *./NASCOR/login-ssl/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./NASCOR/login-ssl/www/login.php
+26fbb794da55dd76363ad2bcc9736be4 *./NASCOR/login-ssl/zap_root_ca.cer
+6a673833cd5b62e460394d8405d1dc68 *./NASCOR/login-ssl/zap_root_ca_NascorPC.cer
+92dd926f095d68504780d8770e71a840 *./NASCOR/MongoDB/1.png
+93de87d3f61cf731e887b21a835e6ce6 *./NASCOR/MongoDB/16.PNG
+39c3e7de0d94d8ce5501d9d7da193fc9 *./NASCOR/MongoDB/17.PNG
+9d1e81facb0db491857862e27d234999 *./NASCOR/MongoDB/2.png
+ac22ba3b461c0e1ccee409a3610bee55 *./NASCOR/MongoDB/20.PNG
+dcfcce709bcad943b2a4239b325b8c42 *./NASCOR/MongoDB/21.PNG
+1f3e4202bb47b396e3797a23311f6d53 *./NASCOR/MongoDB/22.PNG
+4ae1a8acd084cea06027f8ffb91e51f7 *./NASCOR/MongoDB/9.json
+f32019d78a5ca6bd7cb8cf81fb3c95db *./NASCOR/MongoDB/9.PNG
+d9f077c72c1cc28d6e989aa354924bd3 *./NASCOR/MongoDB/Action.PNG
+5830a45fc7242ccf95303577368014ca *./NASCOR/MongoDB/add_comment_movies.PNG
+5da23fd007d8db408ba362065646e6ae *./NASCOR/MongoDB/and((or (cuisine Italian, mexican) ) borough Manhattan).PNG
+16caaad101985ad9a6ac1ec08c14bb86 *./NASCOR/MongoDB/avg_runtime.PNG
+a63ec2d06317e61062aff70032a63c18 *./NASCOR/MongoDB/Captura de pantalla 2025-07-14 111232.png
+1d875302b63cfa798b39d8583f3de6a7 *./NASCOR/MongoDB/Civilization_1985.PNG
+e3fbc6b153ebdfcecadfe10b32d26c0a *./NASCOR/MongoDB/count_by_type.json
+0d8758f0f0073024789186e6f2f7913e *./NASCOR/MongoDB/count_by_type.png
+25c9ae8618700f90ab9abbe47522c250 *./NASCOR/MongoDB/count_by_type2.png
+6a2937fa38e5b036ab7d49cff97adfca *./NASCOR/MongoDB/cuisine_types.json
+a21e0bc68bb6fae127e0a86ed88a1a7b *./NASCOR/MongoDB/different cuisine types.PNG
+e831d153c532bbbe9ff84c1e80fcf0b8 *./NASCOR/MongoDB/docker-compose.yml
+c73fa57163a7f8cb3811003a0ad53502 *./NASCOR/MongoDB/gestiona_productos.py
+a19651637bf6f67e75d3328ddde82341 *./NASCOR/MongoDB/imdb_by_genres.json
+ceaffac237c280a0236523a98ec813a0 *./NASCOR/MongoDB/italian, score less than 5.PNG
+23e3c1def6381c8a3c94a131f9bed2ef *./NASCOR/MongoDB/italian_leq_5.restaurants.json
+43f885baa97d53d3e1e225640dc67c1d *./NASCOR/MongoDB/Italian_restaurant_names.json
+77ef1ced26864713edca93404835f748 *./NASCOR/MongoDB/Italian_restaurant_names.PNG
+03ff7523beba2b819a7afa9e8e3e4ebe *./NASCOR/MongoDB/lt3.4_imdb_delete.PNG
+92b2f0b3377d0473fcf53699437ce197 *./NASCOR/MongoDB/nina_exfil.py
+afa311c218cafdddc0550c18196d99a3 *./NASCOR/MongoDB/nina_mongo.py
+7f97474ce140bee14acd34db6c665c14 *./NASCOR/MongoDB/num_mflix_comments by year.json
+d560dd40956d498ff5167f447ac10747 *./NASCOR/MongoDB/PericoPalotes.PNG
+34228cf53ae5537c85fde5cc4d49112f *./NASCOR/MongoDB/productos.json
+2c250b75db8f2e55e118ed5b2a6d8e4d *./NASCOR/MongoDB/score mayor 30.PNG
+1385d1caf9ed6419fa3ceeb9e424b6c0 *./NASCOR/MongoDB/year100.PNG
+21b86bad1d469d1884f9bda013bea22c *./NASCOR/Monitoring/docker-compose.yml
+9c459b14f4a946e7ef7fb309634a1ad9 *./NASCOR/Monitoring/Hudini.py
+bbcfe10d96522117ae0230949d5e660d *./NASCOR/Monitoring/InfluxDB_NINA-logger.py
+92b2f0b3377d0473fcf53699437ce197 *./NASCOR/Monitoring/nina_exfil.py
+afa311c218cafdddc0550c18196d99a3 *./NASCOR/Monitoring/nina_mongo.py
+34228cf53ae5537c85fde5cc4d49112f *./NASCOR/Monitoring/productos.json
+0e2c490ee901031b9c7950045c0440cb *./NASCOR/Monitoring/prometheus.yml
+32c896461279e04e194f5932d3ba0673 *./NASCOR/Monitoring/userlist_generated.txt
+fd9f3e24d8f252c577de2fa5cec3c46c *./NASCOR/Neo4j/clase1.txt
+7e06a7470d9b6d22f395e273a21ae386 *./NASCOR/Neo4j/clientes.json
+72b1c7180842035e040057d4cede7326 *./NASCOR/Neo4j/docker-compose.yml
+d3fc74a9d361c73c67c1d66b9918b2e8 *./NASCOR/Neo4j/insertar_en_neo4j.py
+84adf34fedf21d7ec4a1f49ddf13f828 *./NASCOR/Neo4j/mis_soluciones.txt
+756369ad9280d8d34e8ce4b52e827d02 *./NASCOR/Neo4j/movie_genre.png
+95a307924779af66a31c76f1ccd42c86 *./NASCOR/Neo4j/numero_compras.png
+c2115318a7fafb711f7979284f081aac *./NASCOR/Neo4j/productos.json
+67d3b612d526e0b43413f0820f4b04db *./NASCOR/Neo4j.zip
+215ca5f53602c4e884d76c7d5cf6cdc5 *./NASCOR/OneDrive_2025-07-09.zip
+09dc8e3d0c5d081bb33aeacb41dcf109 *./NASCOR/postman fail.JPG
+78250b980a01bb8b7b1729c4a06627af *./NASCOR/Practica API Login/comandos_docker.txt
+e3c9883790e024575e8d7fe4a8da4c0b *./NASCOR/Practica API Login/hosts
+bcbfbadc5a3562301b15557442da649b *./NASCOR/Practica API Login/index.php
+f688ae26e9cfa3ba6235477831d5122e *./NASCOR/Practica API Login/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./NASCOR/Practica API Login/login.php
+d429c1c6f9e00286589dd88d0550857e *./NASCOR/Practica API Login/login_inseguro.php
+3db938b11888361b4f18de1ba2d5785e *./NASCOR/Practica API Login/login_mas_inseguro.php
+45e8da395d33654ddcc955b4274243cf *./NASCOR/Practica API Login/test_database.php
+36a88b689908ab7c611bf3884209cc21 *./NASCOR/practicas/airbnb.csv
+3edc1c9d66bc06f94eb3b9659d207efc *./NASCOR/practicas/Guia_Practica_SSH_Putty_Kali-V1.0.docx
+34a0078e822a1444b8b1579036440b5e *./NASCOR/practicas/Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./NASCOR/practicas/Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./NASCOR/practicas/Practicas_SSL.docx
+16483e4cdacb8b8e40b8d093465976b8 *./NASCOR/practicas/Practicas_Tema1_Wireshark.docx
+72681707ee3190491af26d0cae7fb24b *./NASCOR/practicas/Practicas_Tema2_Wireshark_HTTP.docx
+605d55e91b77237662a7c7e1655d98d4 *./NASCOR/practicas/Practica_Libre_NoSQL.docx
+1add250eff2fd464bce0aaa6d127dd45 *./NASCOR/practicas/Practica_MongoDB.docx
+097f6b12b670a598f95431f3008db450 *./NASCOR/practicas/Practica_Neo4j-V1.0.docx
+42d41a4c77cb5ba6a79a752a9ce66b67 *./NASCOR/practicas/Practica_Prometheus_Grafana.docx
+750ebcbff23a4357fa4a2cbd51483dd4 *./NASCOR/practicas/ssl-ethereal-trace-1.pcap
+34a0078e822a1444b8b1579036440b5e *./NASCOR/Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./NASCOR/Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./NASCOR/Practicas_SSL.docx
+ad03406bded5ec7777c7b3d49b2eb320 *./NASCOR/proteccion de datos.pptx
+a92503af3e56158d9a259628789a5f9e *./NASCOR/proyecto/API_C/apache/cgi-bin/tu_api
+6b3845a8d8cb7fa16024bf7e4e0315c7 *./NASCOR/proyecto/API_C/apache/cgi-bin/tu_api.c
+a92503af3e56158d9a259628789a5f9e *./NASCOR/proyecto/API_C/apache/cgi-bin/tu_api.exe
+a58796f1205c59f1cff178c784cdd69a *./NASCOR/proyecto/API_C/apache/cgi.conf
+9635707720d95e3989174b954dad633c *./NASCOR/proyecto/API_C/apache/datos/BTCUSDT.json
+1d57dfeb9f4331982e90486accca9b55 *./NASCOR/proyecto/API_C/apache/Dockerfile
+3767ac7208f2f3a29176d1152a3c1470 *./NASCOR/proyecto/API_C/apache/doom-web/assets/dosbox.conf
+a7f81a239ffa8e10580ac87273ef38a8 *./NASCOR/proyecto/API_C/apache/doom-web/assets/img/overlay.png
+85a3bc0921fd9a6fad744eeabc162c8b *./NASCOR/proyecto/API_C/apache/doom-web/broken-sword.html
+8d96a0d7efeb7182a1d59faca3824783 *./NASCOR/proyecto/API_C/apache/doom-web/broken-sword2.html
+758ea0f9ec5855b13098da0b4f68537b *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/emulators.js
+4a4e2c13f1390d9066f6afe2168cc5e2 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/emulators.js.map
+23afb9853a3ee1a451300af2533271e3 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/build.d.ts
+7397e536d619670385aa3c0cb2c78e02 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/dos/bundle/dos-bundle.d.ts
+eb5ac142b834c3b8f1ced6b17c8c746e *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/dos/dosbox/ts/direct.d.ts
+1851d473fd51a685009c12c1663cc71a *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/dos/dosbox/ts/worker.d.ts
+abecbb50dcd3b07e8983d64e531e76e9 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/emulators.d.ts
+0f632e9aaf09ff8fb96f1b2d71dfd4a1 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/http.d.ts
+152a556ee02e8686e724def33c1efb44 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/impl/ci-impl.d.ts
+e1cd9eb230bba9baa2cda5c662e4cdc6 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/impl/emulators-impl.d.ts
+1f13931cc9317021ae4529a0ed3e2f34 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/impl/modules.d.ts
+be5904edefe6094a821acfd60fc3dd7a *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/libzip/libzip.d.ts
+abdab26f5d2e50121b41932572e2cd54 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/messages-queue.d.ts
+71432f7a3f17682793315afc02de25fe *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/mini-lz4.d.ts
+d61549aadc2a58f10560efa81e21a979 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/protocol.d.ts
+1207de75ad8250f803247ce1e5f85233 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/sockdrive-store.d.ts
+00ca5397c8185677129e086c7b12397c *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/types/protocol/sockdrive.d.ts
+fcbb2c17d80ad5c4a719b29567e4f12b *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.js
+6efa213c1a328856b7f31585c27dcafc *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.js.symbols
+47d6e67bf5244dc774f894ad6754a1b4 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.wasm
+58c86d501b6888cb95f6a93f1be88f4b *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox.js
+0fa4eaf98cc814cab959047ff5e6f3cd *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox.js.symbols
+3ba888726a01fb10a31b9f49cc8e0e73 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wdosbox.wasm
+9cbfa8699745540145a445f5ff645a23 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wlibzip.js
+d0d98a5d7f8ef529d77d664127a66e23 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wlibzip.js.symbols
+e2a1e36dd492667998c4466205038984 *./NASCOR/proyecto/API_C/apache/doom-web/components/emulators/wlibzip.wasm
+c620c0d3ede48038aa64fc1091301df1 *./NASCOR/proyecto/API_C/apache/doom-web/components/index.html
+5cbc26bcd5abd2429f4756f6c60cef72 *./NASCOR/proyecto/API_C/apache/doom-web/components/js-dos-apiv3.js
+6243bf65d230095259331ca3b08db428 *./NASCOR/proyecto/API_C/apache/doom-web/components/js-dos.css
+1bf6aa25cbed0fa4f744d1898f1dd042 *./NASCOR/proyecto/API_C/apache/doom-web/components/js-dos.js
+129523d11cbb7ae5f7143a97114809a8 *./NASCOR/proyecto/API_C/apache/doom-web/components/js-dos.js.map
+7e6e0bed83d83cda320fb1d8f3936796 *./NASCOR/proyecto/API_C/apache/doom-web/duke-3d.html
+c9d6ebe55e4f3bfaf5698b91984b0cba *./NASCOR/proyecto/API_C/apache/doom-web/index.html
+6243bf65d230095259331ca3b08db428 *./NASCOR/proyecto/API_C/apache/doom-web/js-dos.css
+1bf6aa25cbed0fa4f744d1898f1dd042 *./NASCOR/proyecto/API_C/apache/doom-web/js-dos.js
+129523d11cbb7ae5f7143a97114809a8 *./NASCOR/proyecto/API_C/apache/doom-web/js-dos.js.map
+ef32f5f90c1fb181879ccd75d228cf27 *./NASCOR/proyecto/API_C/apache/doom-web/README.md
+07dbf395cd757d3d58340d5c60ec9986 *./NASCOR/proyecto/API_C/apache/doom-web/roms/duke-3d.zip
+46804cda45b7d7697de3e7c36bc1317d *./NASCOR/proyecto/API_C/apache/doom-web/roms/ultimate-doom.zip
+2be9608febbc78717dac910d124397aa *./NASCOR/proyecto/API_C/apache/doom-web/script.js
+86df90caf4c0b66fad63c39008f89b25 *./NASCOR/proyecto/API_C/apache/doom-web/style.css
+0e5801b6995b7b1469990f5907bfa378 *./NASCOR/proyecto/API_C/apache/doom-web/styles/button.css
+47c74a4b41f286e9816fa7a056eadfe0 *./NASCOR/proyecto/API_C/apache/doom-web/SWORD.html
+9cea848d3c584aed2f113e7396f161d8 *./NASCOR/proyecto/docker-compose.yml
+b11f81124e3143f39dee5095f5537b90 *./NASCOR/proyecto/Dockerfile
+933222b19ff3e7ea5f65517ea1f7d57e *./NASCOR/proyecto/helo
+d41d8cd98f00b204e9800998ecf8427e *./NASCOR/proyecto/init.sql
+ef2c206817f42111475c30f7e3da67a2 *./NASCOR/proyecto/sample_sql.sql
+d80b3e514c75b9a968840886e2c270ed *./NASCOR/proyecto/w3schools.sql
+44c5c0c2f8466059ea430bb1ccefa467 *./NASCOR/proyecto/www/async_brutus.py
+776c7bed06760e21e886f63d20c5df8e *./NASCOR/proyecto/www/async_user.py
+4c267478e2ee10b9045b486e270cee9b *./NASCOR/proyecto/www/brute_force.py
+dafcc890b9c7e55c72118d0c9b038972 *./NASCOR/proyecto/www/brutus.py
+f47adbd09e6bb2bd223a18065476bc85 *./NASCOR/proyecto/www/brutus2.py
+d4d90b7d13f52ca7b713c507be04b007 *./NASCOR/proyecto/www/brutus3.py
+c498fa6b8253e99f4a53883c9c98bde6 *./NASCOR/proyecto/www/brutus4.py
+d4770cb3ce5e2b16ccd59b4b0ef88100 *./NASCOR/proyecto/www/brutus_fast.py
+95751317766f9afce4db15b071cc63da *./NASCOR/proyecto/www/brutus_hashcat.py
+70cfaa43b5c6a2ad61b883d8a21393fd *./NASCOR/proyecto/www/brutus_md5.py
+8504ef0e773098e1a8d678c30e08da4c *./NASCOR/proyecto/www/brutus_md5_2.py
+78250b980a01bb8b7b1729c4a06627af *./NASCOR/proyecto/www/comandos_docker.txt
+e3c9883790e024575e8d7fe4a8da4c0b *./NASCOR/proyecto/www/hosts
+b95bebbaacc5df34dcb2612ba70ab4f0 *./NASCOR/proyecto/www/index.html
+1af87c6f5268a433ef4af17f0ca30fad *./NASCOR/proyecto/www/index.php.bak
+bcbfbadc5a3562301b15557442da649b *./NASCOR/proyecto/www/index2.php
+f688ae26e9cfa3ba6235477831d5122e *./NASCOR/proyecto/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./NASCOR/proyecto/www/login.php
+34a418554d7340d081c80a7187ef756e *./NASCOR/proyecto/www/login_inseguro.php
+c03d103f17d62b2f1810d5f0e927de13 *./NASCOR/proyecto/www/login_mas_inseguro.php
+3951e521a104725776e0803461f46e26 *./NASCOR/proyecto/www/multi_brutus.py
+820bbab4e43d9be6c06591f3efabe060 *./NASCOR/proyecto/www/target.hash
+45e8da395d33654ddcc955b4274243cf *./NASCOR/proyecto/www/test_database.php
+32c896461279e04e194f5932d3ba0673 *./NASCOR/proyecto/www/userlist_generated.txt
+93e8c4d23a6dbf9092bdab3bf82c6a69 *./NASCOR/README.md
+2ef4a5ed9e6d52db97e6e32eb8de8e7f *./NASCOR/selfsigned.crt
+49aff2cb7fd6a7d203c8951781655661 *./NASCOR/selfsigned.key
+c2358ce7a59db3c446e2d87736617cf8 *./NASCOR/semsibñe7.pdf
+7714d68002152b88dd710b921651a280 *./NASCOR/software/lista_archivos.txt
+750ebcbff23a4357fa4a2cbd51483dd4 *./NASCOR/ssl-ethereal-trace-1.pcap
+cfa6a40a210e016717fde041aad3272e *./NASCOR/XMRIG.txt
+b234ea5fb7dc1f6cf8a6f6c02e8d3602 *./NASCOR/XMRIG_fast.txt
+18db7cd4e1f7f676b3908b3ed315e4be *./NASCOR/XMRIG_SLOW.txt
+fe0caddd22d9cb8ddf8329d777dd3778 *./NASCOR/XMRIG_waitENG.txt
+39e7a7c8c468efec47f7d034a175d2fa *./NASCOR/XMRIG_waitESP.txt
+06f50c15021fb8f8b466520b675f53ba *./NASCOR/XMRIG_waitESPtxt.txt
+fd9f3e24d8f252c577de2fa5cec3c46c *./Neo4j/clase1.txt
+7e06a7470d9b6d22f395e273a21ae386 *./Neo4j/clientes.json
+72b1c7180842035e040057d4cede7326 *./Neo4j/docker-compose.yml
+d3fc74a9d361c73c67c1d66b9918b2e8 *./Neo4j/insertar_en_neo4j.py
+84adf34fedf21d7ec4a1f49ddf13f828 *./Neo4j/mis_soluciones.txt
+756369ad9280d8d34e8ce4b52e827d02 *./Neo4j/movie_genre.png
+95a307924779af66a31c76f1ccd42c86 *./Neo4j/numero_compras.png
+c2115318a7fafb711f7979284f081aac *./Neo4j/productos.json
+67d3b612d526e0b43413f0820f4b04db *./Neo4j.zip
+215ca5f53602c4e884d76c7d5cf6cdc5 *./OneDrive_2025-07-09.zip
+09dc8e3d0c5d081bb33aeacb41dcf109 *./postman fail.JPG
+78250b980a01bb8b7b1729c4a06627af *./Practica API Login/comandos_docker.txt
+e3c9883790e024575e8d7fe4a8da4c0b *./Practica API Login/hosts
+bcbfbadc5a3562301b15557442da649b *./Practica API Login/index.php
+f688ae26e9cfa3ba6235477831d5122e *./Practica API Login/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./Practica API Login/login.php
+d429c1c6f9e00286589dd88d0550857e *./Practica API Login/login_inseguro.php
+3db938b11888361b4f18de1ba2d5785e *./Practica API Login/login_mas_inseguro.php
+45e8da395d33654ddcc955b4274243cf *./Practica API Login/test_database.php
+36a88b689908ab7c611bf3884209cc21 *./practicas/airbnb.csv
+3edc1c9d66bc06f94eb3b9659d207efc *./practicas/Guia_Practica_SSH_Putty_Kali-V1.0.docx
+34a0078e822a1444b8b1579036440b5e *./practicas/Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./practicas/Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./practicas/Practicas_SSL.docx
+16483e4cdacb8b8e40b8d093465976b8 *./practicas/Practicas_Tema1_Wireshark.docx
+72681707ee3190491af26d0cae7fb24b *./practicas/Practicas_Tema2_Wireshark_HTTP.docx
+605d55e91b77237662a7c7e1655d98d4 *./practicas/Practica_Libre_NoSQL.docx
+1add250eff2fd464bce0aaa6d127dd45 *./practicas/Practica_MongoDB.docx
+097f6b12b670a598f95431f3008db450 *./practicas/Practica_Neo4j-V1.0.docx
+42d41a4c77cb5ba6a79a752a9ce66b67 *./practicas/Practica_Prometheus_Grafana.docx
+750ebcbff23a4357fa4a2cbd51483dd4 *./practicas/ssl-ethereal-trace-1.pcap
+34a0078e822a1444b8b1579036440b5e *./Practicas_API_Login.docx
+407c72a506106b8ac4c40276dbe9cc13 *./Practicas_API_Login_Certificados.docx
+d1ccd928a12c906b65dceff588ade0b7 *./Practicas_SSL.docx
+ad03406bded5ec7777c7b3d49b2eb320 *./proteccion de datos.pptx
+a92503af3e56158d9a259628789a5f9e *./proyecto/API_C/apache/cgi-bin/tu_api
+6b3845a8d8cb7fa16024bf7e4e0315c7 *./proyecto/API_C/apache/cgi-bin/tu_api.c
+a92503af3e56158d9a259628789a5f9e *./proyecto/API_C/apache/cgi-bin/tu_api.exe
+a58796f1205c59f1cff178c784cdd69a *./proyecto/API_C/apache/cgi.conf
+9635707720d95e3989174b954dad633c *./proyecto/API_C/apache/datos/BTCUSDT.json
+1d57dfeb9f4331982e90486accca9b55 *./proyecto/API_C/apache/Dockerfile
+3767ac7208f2f3a29176d1152a3c1470 *./proyecto/API_C/apache/doom-web/assets/dosbox.conf
+a7f81a239ffa8e10580ac87273ef38a8 *./proyecto/API_C/apache/doom-web/assets/img/overlay.png
+85a3bc0921fd9a6fad744eeabc162c8b *./proyecto/API_C/apache/doom-web/broken-sword.html
+8d96a0d7efeb7182a1d59faca3824783 *./proyecto/API_C/apache/doom-web/broken-sword2.html
+758ea0f9ec5855b13098da0b4f68537b *./proyecto/API_C/apache/doom-web/components/emulators/emulators.js
+4a4e2c13f1390d9066f6afe2168cc5e2 *./proyecto/API_C/apache/doom-web/components/emulators/emulators.js.map
+23afb9853a3ee1a451300af2533271e3 *./proyecto/API_C/apache/doom-web/components/emulators/types/build.d.ts
+7397e536d619670385aa3c0cb2c78e02 *./proyecto/API_C/apache/doom-web/components/emulators/types/dos/bundle/dos-bundle.d.ts
+eb5ac142b834c3b8f1ced6b17c8c746e *./proyecto/API_C/apache/doom-web/components/emulators/types/dos/dosbox/ts/direct.d.ts
+1851d473fd51a685009c12c1663cc71a *./proyecto/API_C/apache/doom-web/components/emulators/types/dos/dosbox/ts/worker.d.ts
+abecbb50dcd3b07e8983d64e531e76e9 *./proyecto/API_C/apache/doom-web/components/emulators/types/emulators.d.ts
+0f632e9aaf09ff8fb96f1b2d71dfd4a1 *./proyecto/API_C/apache/doom-web/components/emulators/types/http.d.ts
+152a556ee02e8686e724def33c1efb44 *./proyecto/API_C/apache/doom-web/components/emulators/types/impl/ci-impl.d.ts
+e1cd9eb230bba9baa2cda5c662e4cdc6 *./proyecto/API_C/apache/doom-web/components/emulators/types/impl/emulators-impl.d.ts
+1f13931cc9317021ae4529a0ed3e2f34 *./proyecto/API_C/apache/doom-web/components/emulators/types/impl/modules.d.ts
+be5904edefe6094a821acfd60fc3dd7a *./proyecto/API_C/apache/doom-web/components/emulators/types/libzip/libzip.d.ts
+abdab26f5d2e50121b41932572e2cd54 *./proyecto/API_C/apache/doom-web/components/emulators/types/protocol/messages-queue.d.ts
+71432f7a3f17682793315afc02de25fe *./proyecto/API_C/apache/doom-web/components/emulators/types/protocol/mini-lz4.d.ts
+d61549aadc2a58f10560efa81e21a979 *./proyecto/API_C/apache/doom-web/components/emulators/types/protocol/protocol.d.ts
+1207de75ad8250f803247ce1e5f85233 *./proyecto/API_C/apache/doom-web/components/emulators/types/protocol/sockdrive-store.d.ts
+00ca5397c8185677129e086c7b12397c *./proyecto/API_C/apache/doom-web/components/emulators/types/protocol/sockdrive.d.ts
+fcbb2c17d80ad5c4a719b29567e4f12b *./proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.js
+6efa213c1a328856b7f31585c27dcafc *./proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.js.symbols
+47d6e67bf5244dc774f894ad6754a1b4 *./proyecto/API_C/apache/doom-web/components/emulators/wdosbox-x.wasm
+58c86d501b6888cb95f6a93f1be88f4b *./proyecto/API_C/apache/doom-web/components/emulators/wdosbox.js
+0fa4eaf98cc814cab959047ff5e6f3cd *./proyecto/API_C/apache/doom-web/components/emulators/wdosbox.js.symbols
+3ba888726a01fb10a31b9f49cc8e0e73 *./proyecto/API_C/apache/doom-web/components/emulators/wdosbox.wasm
+9cbfa8699745540145a445f5ff645a23 *./proyecto/API_C/apache/doom-web/components/emulators/wlibzip.js
+d0d98a5d7f8ef529d77d664127a66e23 *./proyecto/API_C/apache/doom-web/components/emulators/wlibzip.js.symbols
+e2a1e36dd492667998c4466205038984 *./proyecto/API_C/apache/doom-web/components/emulators/wlibzip.wasm
+c620c0d3ede48038aa64fc1091301df1 *./proyecto/API_C/apache/doom-web/components/index.html
+5cbc26bcd5abd2429f4756f6c60cef72 *./proyecto/API_C/apache/doom-web/components/js-dos-apiv3.js
+6243bf65d230095259331ca3b08db428 *./proyecto/API_C/apache/doom-web/components/js-dos.css
+1bf6aa25cbed0fa4f744d1898f1dd042 *./proyecto/API_C/apache/doom-web/components/js-dos.js
+129523d11cbb7ae5f7143a97114809a8 *./proyecto/API_C/apache/doom-web/components/js-dos.js.map
+7e6e0bed83d83cda320fb1d8f3936796 *./proyecto/API_C/apache/doom-web/duke-3d.html
+c9d6ebe55e4f3bfaf5698b91984b0cba *./proyecto/API_C/apache/doom-web/index.html
+6243bf65d230095259331ca3b08db428 *./proyecto/API_C/apache/doom-web/js-dos.css
+1bf6aa25cbed0fa4f744d1898f1dd042 *./proyecto/API_C/apache/doom-web/js-dos.js
+129523d11cbb7ae5f7143a97114809a8 *./proyecto/API_C/apache/doom-web/js-dos.js.map
+ef32f5f90c1fb181879ccd75d228cf27 *./proyecto/API_C/apache/doom-web/README.md
+07dbf395cd757d3d58340d5c60ec9986 *./proyecto/API_C/apache/doom-web/roms/duke-3d.zip
+46804cda45b7d7697de3e7c36bc1317d *./proyecto/API_C/apache/doom-web/roms/ultimate-doom.zip
+2be9608febbc78717dac910d124397aa *./proyecto/API_C/apache/doom-web/script.js
+86df90caf4c0b66fad63c39008f89b25 *./proyecto/API_C/apache/doom-web/style.css
+0e5801b6995b7b1469990f5907bfa378 *./proyecto/API_C/apache/doom-web/styles/button.css
+47c74a4b41f286e9816fa7a056eadfe0 *./proyecto/API_C/apache/doom-web/SWORD.html
+9cea848d3c584aed2f113e7396f161d8 *./proyecto/docker-compose.yml
+b11f81124e3143f39dee5095f5537b90 *./proyecto/Dockerfile
+933222b19ff3e7ea5f65517ea1f7d57e *./proyecto/helo
+d41d8cd98f00b204e9800998ecf8427e *./proyecto/init.sql
+ef2c206817f42111475c30f7e3da67a2 *./proyecto/sample_sql.sql
+d80b3e514c75b9a968840886e2c270ed *./proyecto/w3schools.sql
+44c5c0c2f8466059ea430bb1ccefa467 *./proyecto/www/async_brutus.py
+776c7bed06760e21e886f63d20c5df8e *./proyecto/www/async_user.py
+4c267478e2ee10b9045b486e270cee9b *./proyecto/www/brute_force.py
+dafcc890b9c7e55c72118d0c9b038972 *./proyecto/www/brutus.py
+f47adbd09e6bb2bd223a18065476bc85 *./proyecto/www/brutus2.py
+d4d90b7d13f52ca7b713c507be04b007 *./proyecto/www/brutus3.py
+c498fa6b8253e99f4a53883c9c98bde6 *./proyecto/www/brutus4.py
+d4770cb3ce5e2b16ccd59b4b0ef88100 *./proyecto/www/brutus_fast.py
+95751317766f9afce4db15b071cc63da *./proyecto/www/brutus_hashcat.py
+70cfaa43b5c6a2ad61b883d8a21393fd *./proyecto/www/brutus_md5.py
+8504ef0e773098e1a8d678c30e08da4c *./proyecto/www/brutus_md5_2.py
+78250b980a01bb8b7b1729c4a06627af *./proyecto/www/comandos_docker.txt
+e3c9883790e024575e8d7fe4a8da4c0b *./proyecto/www/hosts
+b95bebbaacc5df34dcb2612ba70ab4f0 *./proyecto/www/index.html
+1af87c6f5268a433ef4af17f0ca30fad *./proyecto/www/index.php.bak
+bcbfbadc5a3562301b15557442da649b *./proyecto/www/index2.php
+f688ae26e9cfa3ba6235477831d5122e *./proyecto/www/info.txt
+8a8e80dc70194b39b0051e56357a3bd1 *./proyecto/www/login.php
+34a418554d7340d081c80a7187ef756e *./proyecto/www/login_inseguro.php
+c03d103f17d62b2f1810d5f0e927de13 *./proyecto/www/login_mas_inseguro.php
+3951e521a104725776e0803461f46e26 *./proyecto/www/multi_brutus.py
+820bbab4e43d9be6c06591f3efabe060 *./proyecto/www/target.hash
+45e8da395d33654ddcc955b4274243cf *./proyecto/www/test_database.php
+32c896461279e04e194f5932d3ba0673 *./proyecto/www/userlist_generated.txt
+93e8c4d23a6dbf9092bdab3bf82c6a69 *./README.md
+2ef4a5ed9e6d52db97e6e32eb8de8e7f *./selfsigned.crt
+49aff2cb7fd6a7d203c8951781655661 *./selfsigned.key
+c2358ce7a59db3c446e2d87736617cf8 *./semsibñe7.pdf
+7714d68002152b88dd710b921651a280 *./software/lista_archivos.txt
+750ebcbff23a4357fa4a2cbd51483dd4 *./ssl-ethereal-trace-1.pcap
+cfa6a40a210e016717fde041aad3272e *./XMRIG.txt
+b234ea5fb7dc1f6cf8a6f6c02e8d3602 *./XMRIG_fast.txt
+18db7cd4e1f7f676b3908b3ed315e4be *./XMRIG_SLOW.txt
+fe0caddd22d9cb8ddf8329d777dd3778 *./XMRIG_waitENG.txt
+39e7a7c8c468efec47f7d034a175d2fa *./XMRIG_waitESP.txt
+06f50c15021fb8f8b466520b675f53ba *./XMRIG_waitESPtxt.txt
